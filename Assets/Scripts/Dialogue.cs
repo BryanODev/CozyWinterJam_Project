@@ -47,6 +47,7 @@ public class Dialogue : MonoBehaviour
 
     public void SetCurrentDialogue(DialogueData newCurrentDialogue)
     {
+        ToggleDialogue(true);
         currentDialogue = newCurrentDialogue;
         currentDialogueMaxText = currentDialogue.Quotes.Length;
         currentDialogueIndex = 0;
@@ -108,6 +109,7 @@ public class Dialogue : MonoBehaviour
         for (int i = 0; i < textSize; i++) 
         {
             DialogueText.text += Text[i];
+            RemoveR();
 
             yield return new WaitForSeconds(dialogueCurrentDrawSpeed);
         }
@@ -161,6 +163,11 @@ public class Dialogue : MonoBehaviour
             dialogueCurrentDrawSpeed = dialogueSlowDrawSpeed;
             currentDialogueIndex++;
         }
+    }
+
+    public void RemoveR() 
+    {
+        DialogueText.text = DialogueText.text.Replace("\r", "");
     }
 
     void EmptyDialogue() 

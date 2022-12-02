@@ -14,12 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DialogueTitle: Introduction
   Quotes:
+  - PersonTalking: 
+    DialogueQuote: "The last leg of our journey. It\u2019s been one hell of a winter
+      vacation, and I\u2019m\r not sure if I want it to be over just yet. That\u2019s
+      how it goes with vacations.\r\n"
+  - PersonTalking: 
+    DialogueQuote: "The car left a cloud of hot smog as we parked up outside the
+      cabin. It was Lily\u2019s idea to rent the place for a night. She always has
+      the best ideas."
+  - PersonTalking: 
+    DialogueQuote: "A gentle snowfall began as we settled in for the night, a sense
+      of calm\r overtaking me as I watched the ice climb up the glass."
+  - PersonTalking: 
+    DialogueQuote: "There\u2019s no better feeling than this: inside and warm by
+      the fire, whilst the\r cold world beyond the wood continues to spin."
+  - PersonTalking: 
+    DialogueQuote: "As we settle by the fire for the night, the conversation dwindles
+      into\r comfortable silence. It\u2019s easy with Lily: ever since we first met,
+      she made\r everything effortless.\r"
+  - PersonTalking: 
+    DialogueQuote: "Six years. That\u2019s how long we\u2019ve known each other.
+      From art class to this:\r two best friends on vacation before they return to
+      college for the spring.\r"
+  - PersonTalking: 
+    DialogueQuote: "I don\u2019t want to go back. I don\u2019t want this to end."
+  - PersonTalking: 
+    DialogueQuote: "There\u2019s things I want to say. People drift apart when they
+      go to college, I\r know that much. I don\u2019t want to miss this chance."
+  - PersonTalking: 
+    DialogueQuote: To tell her how I feel...
+  - PersonTalking: Lily
+    DialogueQuote: So. Excited to get back?
   - PersonTalking: Mia
-    DialogueQuote: Hiyooo! How you doin!?
-  - PersonTalking: Lilly
-    DialogueQuote: I'm GREAT! You?
+    DialogueQuote: Huh?
+  - PersonTalking: Lily
+    DialogueQuote: College. You haven't stopped writing in your notebook this entire
+      time. You're itching to get back to it.
   endsOnQuestion: 1
   Options:
-  - {fileID: 11400000, guid: 5e2a67b1577d1234a9761ae60e7f1e2c, type: 2}
-  - {fileID: 11400000, guid: 87de508715c5b634caa387e6c651e922, type: 2}
+  - {fileID: 11400000, guid: 1d1a748af9546a24380b15b2babd4258, type: 2}
+  - {fileID: 11400000, guid: e4758174b4f336646a72937c9f5445a5, type: 2}
   NextDialogue: {fileID: 0}

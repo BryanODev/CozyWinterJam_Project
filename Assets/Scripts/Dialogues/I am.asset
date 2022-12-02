@@ -10,14 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6685f8597e71cca45a7dffde5153d165, type: 3}
-  m_Name: I'm Sad
+  m_Name: I am
   m_EditorClassIdentifier: 
-  DialogueTitle: I'm Sad
+  DialogueTitle: I am.
   Quotes:
-  - PersonTalking: Mia
-    DialogueQuote: Sigh....
-  - PersonTalking: Lilly
-    DialogueQuote: a................ :) dont be sad.
+  - PersonTalking: 
+    DialogueQuote: Branch 1 Continues
   endsOnQuestion: 0
   Options: []
   NextDialogue: {fileID: 0}

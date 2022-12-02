@@ -239,19 +239,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Dialogue Quote
+  m_text: 'DIALOGUE
 
-    Dialogue Quote
+    DIALOGUE
 
-    Dialogue Quote
+    DIALOGUE
 
-    Dialogue Quote
-
-    Dialogue
-    Quote'
+    DIALOGUE'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 984eb6df8424b834dbb86b2e3c1d44b0, type: 2}
+  m_sharedMaterial: {fileID: 4655717507861276162, guid: 984eb6df8424b834dbb86b2e3c1d44b0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -684,8 +681,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -374.92737, y: 130}
-  m_SizeDelta: {x: -869.8547, y: -322.37}
+  m_AnchoredPosition: {x: -332.6323, y: 112.24}
+  m_SizeDelta: {x: -785.2646, y: -286.86}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1403067648
 MonoBehaviour:
@@ -709,8 +706,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Name Of Character
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 08f7269ed5eac3a48938536c5a0a7898, type: 2}
+  m_sharedMaterial: {fileID: -1998834055600844588, guid: 08f7269ed5eac3a48938536c5a0a7898, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

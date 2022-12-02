@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6685f8597e71cca45a7dffde5153d165, type: 3}
-  m_Name: I'm Good
+  m_Name: Not really...
   m_EditorClassIdentifier: 
-  DialogueTitle: I'm Good
+  DialogueTitle: Not really...
   Quotes:
-  - PersonTalking: Mia
-    DialogueQuote: I'm great uwu.
-  - PersonTalking: Lilly
-    DialogueQuote: Ok.
+  - PersonTalking: 
+    DialogueQuote: Branch 2 Continues
   endsOnQuestion: 0
-  Options: []
+  Options:
+  - {fileID: 11400000, guid: 5e2a67b1577d1234a9761ae60e7f1e2c, type: 2}
+  - {fileID: 11400000, guid: 87de508715c5b634caa387e6c651e922, type: 2}
   NextDialogue: {fileID: 0}
