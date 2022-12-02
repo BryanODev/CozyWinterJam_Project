@@ -13,8 +13,11 @@ MonoBehaviour:
   m_Name: I'm Good
   m_EditorClassIdentifier: 
   DialogueTitle: I'm Good
-  Texts:
-  - Glad you are good!
+  Quotes:
+  - PersonTalking: Mia
+    DialogueQuote: I'm great uwu.
+  - PersonTalking: Lilly
+    DialogueQuote: Ok.
   endsOnQuestion: 0
   Options: []
   NextDialogue: {fileID: 0}

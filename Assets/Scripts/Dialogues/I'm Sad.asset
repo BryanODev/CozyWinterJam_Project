@@ -13,8 +13,11 @@ MonoBehaviour:
   m_Name: I'm Sad
   m_EditorClassIdentifier: 
   DialogueTitle: I'm Sad
-  Texts:
-  - A... well dont be sad :c
+  Quotes:
+  - PersonTalking: Mia
+    DialogueQuote: Sigh....
+  - PersonTalking: Lilly
+    DialogueQuote: a................ :) dont be sad.
   endsOnQuestion: 0
   Options: []
   NextDialogue: {fileID: 0}

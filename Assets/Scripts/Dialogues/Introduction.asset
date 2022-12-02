@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Introduction
   m_EditorClassIdentifier: 
   DialogueTitle: Introduction
-  Texts:
-  - Hi! Welcome our new visual novel game!
-  - How are you?
+  Quotes:
+  - PersonTalking: Mia
+    DialogueQuote: Hiyooo! How you doin!?
+  - PersonTalking: Lilly
+    DialogueQuote: I'm GREAT! You?
   endsOnQuestion: 1
   Options:
   - {fileID: 11400000, guid: 5e2a67b1577d1234a9761ae60e7f1e2c, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 87de508715c5b634caa387e6c651e922, type: 2}
   NextDialogue: {fileID: 0}

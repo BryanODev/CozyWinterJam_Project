@@ -7,11 +7,15 @@ public class DialogueData : ScriptableObject
 {
     public string DialogueTitle;
 
-    [TextArea(4,5)]
-    public string[] Texts;
+    public DialogueStrip[] Quotes;
 
     public bool endsOnQuestion;
     public DialogueData[] Options;
 
     public DialogueData NextDialogue;
+
+    public bool DialogueIsValid() 
+    {
+        return Quotes.Length > 0;
+    }
 }
