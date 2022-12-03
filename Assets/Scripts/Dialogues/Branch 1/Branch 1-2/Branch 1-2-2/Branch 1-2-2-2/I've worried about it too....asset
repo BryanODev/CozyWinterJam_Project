@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6685f8597e71cca45a7dffde5153d165, type: 3}
+  m_Name: I've worried about it too...
+  m_EditorClassIdentifier: 
+  DialogueTitle: I've worried about it too...
+  Quotes:
+  - PersonTalking: Mia
+    DialogueQuote: I've worried about it too.... But, I don't want to lose you -
+      I mean, I just...
+  - PersonTalking: 
+    DialogueQuote: '"I trip over my own words, and I feel a flush crawl into my cheeks.
+      I''m really giving my self away here, and it''s embarrasing."'
+  - PersonTalking: 
+    DialogueQuote: '"There''s no point in trying to deny it: the fear I feel every
+      time I laught and bond with a classmate."'
+  - PersonTalking: Lily
+    DialogueQuote: I want to say the name. But, what if it just happens wihtout us
+      realising? I mean, surely you've made new friends, right?
+  - PersonTalking: 
+    DialogueQuote: '"My heart drops into my stomach. I really didn''t want Lily to
+      feed into my fears, but it happened anyway."'
+  - PersonTalking: 
+    DialogueQuote: '"All the words in my mouth fizzle away, and my tongue feels dry."'
+  - PersonTalking: Mia
+    DialogueQuote: I mean.... Yeah, I guess so. I mean, they're just classmates.
+      It's not like I'm going out and partying with them.
+  - PersonTalking: Lily
+    DialogueQuote: It's okey Mia. I've met a few nice people too... It's just...
+      How things are. We meet new people.
+  - PersonTalking: Mia
+    DialogueQuote: People you have more in common with, I'm guessing?
+  - PersonTalking: Lily
+    DialogueQuote: I... Well, yeah. In some ways.
+  - PersonTalking: 
+    DialogueQuote: '"We''ve always had a fre differences. I like theme parks, swimming
+      and ice skating... But, Lily hates all of that."'
+  - PersonTalking: 
+    DialogueQuote: '"Lily likes long walks among nature, going to the beach...."'
+  - PersonTalking: 
+    DialogueQuote: '"I hate all of that."'
+  - PersonTalking: 
+    DialogueQuote: '"But, isn''t that what makes connecting with people so special?
+      That we''re all different inside, even if we share interests?"'
+  - PersonTalking: 
+    DialogueQuote: '"No one person will ever be exactly the same as another."'
+  - PersonTalking: 
+    DialogueQuote: '"We fall into silence again."'
+  endsOnQuestion: 0
+  Options: []
+  NextDialogue: {fileID: 0}

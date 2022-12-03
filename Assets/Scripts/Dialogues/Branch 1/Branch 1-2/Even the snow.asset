@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6685f8597e71cca45a7dffde5153d165, type: 3}
+  m_Name: Even the snow
+  m_EditorClassIdentifier: 
+  DialogueTitle: Even the snow?
+  Quotes:
+  - PersonTalking: 
+    DialogueQuote: '"It only feels natural for me to alleviate the tension somehow.
+      That''s something I picked up  half-way throught high school: humour as a defence
+      mechanism."'
+  - PersonTalking: 
+    DialogueQuote: '"It worked out pretty well for me so far. It makes Lily smile...
+      Sometimes. That makes it worth it in the end."'
+  - PersonTalking: 
+    DialogueQuote: '"I don''t know how she puts up with me."'
+  - PersonTalking: Mia
+    DialogueQuote: Even the snow? I think there's a word for that...
+  - PersonTalking: 
+    DialogueQuote: '"I hear Lily snicker"'
+  - PersonTalking: Lily
+    DialogueQuote: Very funny.
+  - PersonTalking: Lily
+    DialogueQuote: I'm seeing the doctor once I go back to college.
+  - PersonTalking: Mia
+    DialogueQuote: Oh
+  - PersonTalking: Lily
+    DialogueQuote: Things just haven't improved since I started going to college.
+      I mean, I thought it would get better, but it hasn't.
+  - PersonTalking: Mia
+    DialogueQuote: Depression doesn't go away. Not like most people think it does.
+      It's something you learn to live with... We just... learn how to manage it.
+  - PersonTalking: 
+    DialogueQuote: '"Lily hums in acknoledgement, her gaze intently focused on the
+      window"'
+  - PersonTalking: 
+    DialogueQuote: '"We''ve both struggled with depression our whole lives: and we
+      both dealt with it in different ways. I''ve always been more open about it
+      thought."'
+  - PersonTalking: 
+    DialogueQuote: '"I think Lily believes it to be a shameful thing. Like it''s
+      something that can be cured. But, it can''t."'
+  - PersonTalking: 
+    DialogueQuote: '"If only it were that simple."'
+  - PersonTalking: Lily
+    DialogueQuote: Growing up, that's what's scary. It's all gone by so quickly,
+      and it's slipping away.
+  - PersonTalking: 
+    DialogueQuote: '"Ah. So, that''s it. It''s been eating at her this entire time."'
+  - PersonTalking: 
+    DialogueQuote: '"Everyone our age felt obligated to go to college: like all the
+      answers to life were all on a rolled up piece of parchment paper you were handed
+      on a stage."'
+  - PersonTalking: 
+    DialogueQuote: '"The truth is, I''m pretty damn sure it doesn''t matter anymore.
+      It''s like another extension of delaying the inevitable: the big bad world
+      of ''work until you die''."'
+  - PersonTalking: 
+    DialogueQuote: '"College is just another safety net: so we can feel like kids
+      for a little while longer."'
+  - PersonTalking: Mia
+    DialogueQuote: That's life, right? This is just another stage... People grow
+      up, get married, have kids... That whole song and dance.
+  - PersonTalking: Lily
+    DialogueQuote: I guess. Just don't know if I'm ready for it.
+  - PersonTalking: Mia
+    DialogueQuote: Is anyone really ready for it?
+  - PersonTalking: Lily
+    DialogueQuote: I guess not.
+  endsOnQuestion: 1
+  Options:
+  - {fileID: 11400000, guid: 30e4578465b9cdb4ea080d5a05be0817, type: 2}
+  - {fileID: 11400000, guid: 80369573f3945dd4d82b6021992979ee, type: 2}
+  NextDialogue: {fileID: 0}

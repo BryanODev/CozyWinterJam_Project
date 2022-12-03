@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6685f8597e71cca45a7dffde5153d165, type: 3}
+  m_Name: It might be fun
+  m_EditorClassIdentifier: 
+  DialogueTitle: It might be fun.
+  Quotes:
+  - PersonTalking: 
+    DialogueQuote: '"These kinds of conversations are always difficult to have. You
+      never really know what to say, but there''s optimism in growing up."'
+  - PersonTalking: 
+    DialogueQuote: '"New experiences, a time for independence and the taste of pride
+      that comes from becoming a successful adult."'
+  - PersonTalking: 
+    DialogueQuote: '"Even if it sucks. Some good can come from it."'
+  - PersonTalking: Mia
+    DialogueQuote: I don't know, I think it might be fun. Maybe one day, I'll be
+      a decent journalist, and you'll have your own art gallery.
+  - PersonTalking: Lily
+    DialogueQuote: Me? With a art gallery? I think you're dreaming too big.
+  - PersonTalking: Mia
+    DialogueQuote: I'd visit your gallery every weekend. Maybe I'll buy a piece with
+      all the money I have.
+  - PersonTalking: 
+    DialogueQuote: '"Lily smiles. The very sight makes my heart flutter. Her heart-shaped
+      lips curving, with the flames reflecting off of the pink, glossy skin."'
+  - PersonTalking: 
+    DialogueQuote: '"I swallow."'
+  endsOnQuestion: 0
+  Options: []
+  NextDialogue: {fileID: 0}

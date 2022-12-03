@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6685f8597e71cca45a7dffde5153d165, type: 3}
+  m_Name: I am
+  m_EditorClassIdentifier: 
+  DialogueTitle: I am.
+  Quotes:
+  - PersonTalking: Mia
+    DialogueQuote: I am. Or, at least I think I am. It's just been nice travelling...
+      Gives me a lot of inspiration. Not that I could go and write a novel about
+      all this.
+  - PersonTalking: Lily
+    DialogueQuote: Really? That doesn't sound like you.
+  - PersonTalking: Mia
+    DialogueQuote: Have you ever seen me finish a story?
+  - PersonTalking: Lily
+    DialogueQuote: That's besides the point. Hey, at least let me design the book
+      cover for this one since I was here for it.
+  - PersonTalking: 
+    DialogueQuote: '"She sounds so genuine when she says things like that. It''s
+      hard to not believe her. "'
+  - PersonTalking: 
+    DialogueQuote: '"It''s in her eyes too: how expressive they become when she puts
+      her mind to a task that hasn''t even started yet."'
+  - PersonTalking: 
+    DialogueQuote: '"And, I feel guilty for thinking such things. I have no right
+      to."'
+  - PersonTalking: 
+    DialogueQuote: '"Instead, I simply smile and shake my head in fond amusement."'
+  - PersonTalking: 
+    DialogueQuote: -The silence returns, but only for a moment. Lily looks at the
+      window.
+  - PersonTalking: Lily
+    DialogueQuote: It's scary, isn't it?
+  - PersonTalking: Mia
+    DialogueQuote: What is?
+  - PersonTalking: Lily
+    DialogueQuote: Everything.
+  endsOnQuestion: 1
+  Options:
+  - {fileID: 11400000, guid: cf58d800eab9b2047a98c112a7c5c3bb, type: 2}
+  - {fileID: 11400000, guid: 94569843165e4684eb490cd714b2d516, type: 2}
+  NextDialogue: {fileID: 0}

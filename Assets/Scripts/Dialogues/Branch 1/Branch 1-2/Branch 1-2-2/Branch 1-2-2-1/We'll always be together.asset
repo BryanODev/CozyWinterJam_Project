@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6685f8597e71cca45a7dffde5153d165, type: 3}
+  m_Name: We'll always be together
+  m_EditorClassIdentifier: 
+  DialogueTitle: We'll always be together
+  Quotes:
+  - PersonTalking: Mia
+    DialogueQuote: We'll always be together. Even if we're far apart. A bond like
+      ours just doesn't fade into nothing.
+  - PersonTalking: 
+    DialogueQuote: '"I say it with such confidence that I startle myself, but at
+      the same time, I barely believe what I''m saying."'
+  - PersonTalking: 
+    DialogueQuote: '"Life rips people away from each other, like tugging at a bow
+      to unravel it seamlessly."'
+  - PersonTalking: Lily
+    DialogueQuote: You seem so confident about that.
+  - PersonTalking: Mia
+    DialogueQuote: Hey. One of us has to be, right?
+  - PersonTalking: Lily
+    DialogueQuote: Come on. You haven't made any new friends at college?
+  - PersonTalking: 
+    DialogueQuote: '"It startles me how quickly Lily''s tone has changed. It''s firm,
+      but she''s still smiling... Even a little sadly."'
+  - PersonTalking: 
+    DialogueQuote: '"How do I even respond to that?"'
+  endsOnQuestion: 0
+  Options: []
+  NextDialogue: {fileID: 0}

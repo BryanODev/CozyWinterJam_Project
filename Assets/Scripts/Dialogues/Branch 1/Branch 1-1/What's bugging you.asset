@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6685f8597e71cca45a7dffde5153d165, type: 3}
+  m_Name: What's bugging you
+  m_EditorClassIdentifier: 
+  DialogueTitle: What's bugging you?
+  Quotes:
+  - PersonTalking: 
+    DialogueQuote: '"Lily has always been more closed off than me, and even tho she''s
+      always been honest with me... It''s odd to hear her say such things.'
+  - PersonTalking: 
+    DialogueQuote: '"We''ve both struggled with our own minds: that''s why we became
+      so close, after all. It was like finding understanding with that one special
+      person."'
+  - PersonTalking: 
+    DialogueQuote: '"Like they''re the only one who can understand."'
+  - PersonTalking: Mia
+    DialogueQuote: What's bugging you?
+  endsOnQuestion: 0
+  Options: []
+  NextDialogue: {fileID: 0}
