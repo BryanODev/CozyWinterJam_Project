@@ -95,6 +95,11 @@ public class Dialogue : MonoBehaviour
     void NextLine() 
     {
         DialogueNameText.SetText(currentDialogue.Quotes[currentDialogueIndex].PersonTalking);
+
+        //Call Stript Start Event 
+
+        currentDialogue.Quotes[currentDialogueIndex].OnStripStartEvent.Invoke();
+
         StartCoroutine(DrawDialogueText(currentDialogue.Quotes[currentDialogueIndex].DialogueQuote));
     }
 
@@ -159,6 +164,9 @@ public class Dialogue : MonoBehaviour
         }
         else 
         {
+            //call quote on end strip event
+            currentDialogue.Quotes[currentDialogueIndex].OnStripEndEvent.Invoke();
+
             waitForPlayerInteraction = true;
             dialogueCurrentDrawSpeed = dialogueSlowDrawSpeed;
             currentDialogueIndex++;
