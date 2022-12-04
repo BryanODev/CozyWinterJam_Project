@@ -1419,6 +1419,14 @@ PrefabInstance:
       value: 205.61768
       objectReference: {fileID: 0}
     - target: {fileID: 8711103775050215399, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
+      propertyPath: m_text
+      value: 'DIALOGUE
+
+        DIALOGUE
+
+        DIALOGUE'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711103775050215399, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
       propertyPath: m_margin.w
       value: 0.000022888184
       objectReference: {fileID: 0}
@@ -1426,13 +1434,21 @@ PrefabInstance:
       propertyPath: m_margin.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8711103775050215399, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711103775050215401, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8711103775050215401, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
       propertyPath: m_SizeDelta.x
       value: -224.7214
       objectReference: {fileID: 0}
     - target: {fileID: 8711103775050215401, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -237.966
+      value: -236.983
       objectReference: {fileID: 0}
     - target: {fileID: 8711103775050215401, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1440,7 +1456,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8711103775050215401, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -25
+      value: -24.5085
       objectReference: {fileID: 0}
     - target: {fileID: 8711103775308275920, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
       propertyPath: m_IsActive

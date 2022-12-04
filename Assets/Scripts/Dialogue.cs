@@ -14,7 +14,9 @@ public class Dialogue : MonoBehaviour
     public DialogueOption[] OptionList = new DialogueOption[4];
     public TMP_Text DialogueText;
     public TMP_Text DialogueNameText;
+    public DialogueData previousDialogue;
     public DialogueData currentDialogue;
+    public Font Italic;
 
     public int currentDialogueIndex;
     public int currentDialogueMaxText;
@@ -33,7 +35,7 @@ public class Dialogue : MonoBehaviour
 
     private void Awake()
     {
-        for (int i = 0; i < 4; i++)
+        for (int i = 0; i < 2; i++)
         {
             DialogueOption optionInstance = Instantiate(DialogueOptionPrefab, DialogueOptionsPanel.transform).GetComponent<DialogueOption>();
             optionInstance.InitializeOption(this);
@@ -54,6 +56,7 @@ public class Dialogue : MonoBehaviour
     public void SetCurrentDialogue(DialogueData newCurrentDialogue)
     {
         ToggleDialogue(true);
+        previousDialogue = currentDialogue;
         currentDialogue = newCurrentDialogue;
         currentDialogueMaxText = currentDialogue.Quotes.Length;
         currentDialogueIndex = 0;
@@ -63,6 +66,16 @@ public class Dialogue : MonoBehaviour
         if (currentDialogue.DialogueIsValid())
         {
             DialogueNameText.SetText(currentDialogue.Quotes[currentDialogueIndex].PersonTalking);
+
+            if (DialogueNameText.text == "")
+            {
+                DialogueText.fontStyle = FontStyles.Italic;
+            }
+            else if (DialogueNameText.text.Length > 0)
+            {
+                DialogueText.fontStyle = FontStyles.Normal;
+            }
+
             StartCoroutine(DrawDialogueText(currentDialogue.Quotes[currentDialogueIndex].DialogueQuote));
         }
         else
@@ -104,6 +117,15 @@ public class Dialogue : MonoBehaviour
     {
         DialogueNameText.SetText(currentDialogue.Quotes[currentDialogueIndex].PersonTalking);
 
+        if (DialogueNameText.text == "")
+        {
+            DialogueText.fontStyle = FontStyles.Italic;
+        }
+        else if (DialogueNameText.text.Length > 0)
+        {
+            DialogueText.fontStyle = FontStyles.Normal;
+        }
+
         //Call Stript Start Event 
 
         currentDialogue.Quotes[currentDialogueIndex].OnStripStartEvent.Invoke();
@@ -118,12 +140,15 @@ public class Dialogue : MonoBehaviour
         waitForPlayerInteraction = false;
 
         float textSize = Text.Length;
-
+        DialogueText.text = Text;
+        DialogueText.maxVisibleCharacters = 0;
 
         for (int i = 0; i < textSize; i++)
         {
             float pauseMod = 0.0f;
-            DialogueText.text += Text[i];
+
+            DialogueText.maxVisibleCharacters += 1;
+
             RemoveR();
             switch (Text[i])
             {
@@ -190,7 +215,7 @@ public class Dialogue : MonoBehaviour
 
                 Debug.Log(optionsCount);
 
-                for (int i = 0; i < 4; i++)
+                for (int i = 0; i < 2; i++)
                 {
                     if (i < optionsCount)
                     {
@@ -207,6 +232,19 @@ public class Dialogue : MonoBehaviour
                 //    OptionList[i].SetOptionText(currentDialogue.Options[i].DialogueTitle);
                 //}
 
+            }
+            else 
+            {
+                //We set the next dialogue
+
+                if (currentDialogue.NextDialogue != null)
+                {
+                    SetCurrentDialogue(currentDialogue.NextDialogue);
+                }
+                else 
+                {
+                    EndGame();
+                }
             }
         }
         else
@@ -233,6 +271,13 @@ public class Dialogue : MonoBehaviour
     public void ToggleOptionPanel(bool isActive)
     {
         DialogueOptionsPanel.SetActive(isActive);
+    }
+
+    void EndGame() 
+    {
+        Debug.Log("End game");
+
+        //Go to a level, close or w/e action we want
     }
 
 }

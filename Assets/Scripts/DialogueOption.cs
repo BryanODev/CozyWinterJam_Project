@@ -12,10 +12,17 @@ public class DialogueOption : MonoBehaviour
 
     Button buttonComponent;
 
+    private float fontSize;
+
     private void Awake()
     {
         optionText = GetComponentInChildren<TMP_Text>();
         buttonComponent = GetComponent<Button>();
+    }
+
+    private void Start()
+    {
+        fontSize = optionText.fontSize;
     }
 
     public void InitializeOption(Dialogue _dialogueParent) 
@@ -59,4 +66,15 @@ public class DialogueOption : MonoBehaviour
     {
         gameObject.SetActive(newOptionActive);
     }
+
+    public void OnPointerEnter() 
+    {
+        optionText.fontSize = fontSize + 30.0f;
+    }
+
+    public void OnPointerExit()
+    {
+        optionText.fontSize = fontSize;
+    }
+
 }
