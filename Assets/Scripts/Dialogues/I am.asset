@@ -18,33 +18,104 @@ MonoBehaviour:
     DialogueQuote: I am. Or, at least I think I am. It's just been nice travelling...
       Gives me a lot of inspiration. Not that I could go and write a novel about
       all this.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: Lily
     DialogueQuote: Really? That doesn't sound like you.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: Mia
     DialogueQuote: Have you ever seen me finish a story?
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: Lily
     DialogueQuote: That's besides the point. Hey, at least let me design the book
       cover for this one since I was here for it.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"She sounds so genuine when she says things like that. It''s
-      hard to not believe her. "'
+    DialogueQuote: She sounds so genuine when she says things like that. It's hard
+      to not believe her.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"It''s in her eyes too: how expressive they become when she puts
-      her mind to a task that hasn''t even started yet."'
+    DialogueQuote: 'It''s in her eyes too: how expressive they become when she puts
+      her mind to a task that hasn''t even started yet.'
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"And, I feel guilty for thinking such things. I have no right
-      to."'
+    DialogueQuote: And, I feel guilty for thinking such things. I have no right to.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"Instead, I simply smile and shake my head in fond amusement."'
+    DialogueQuote: Instead, I simply smile and shake my head in fond amusement.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: 
     DialogueQuote: -The silence returns, but only for a moment. Lily looks at the
       window.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: Lily
     DialogueQuote: It's scary, isn't it?
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: Mia
     DialogueQuote: What is?
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: Lily
     DialogueQuote: Everything.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   endsOnQuestion: 1
   Options:
   - {fileID: 11400000, guid: cf58d800eab9b2047a98c112a7c5c3bb, type: 2}

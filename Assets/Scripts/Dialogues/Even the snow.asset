@@ -15,9 +15,9 @@ MonoBehaviour:
   DialogueTitle: Even the snow?
   Quotes:
   - PersonTalking: 
-    DialogueQuote: '"It only feels natural for me to alleviate the tension somehow.
+    DialogueQuote: 'It only feels natural for me to alleviate the tension somehow.
       That''s something I picked up  half-way throught high school: humour as a defence
-      mechanism."'
+      mechanism.'
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -25,8 +25,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"It worked out pretty well for me so far. It makes Lily smile...
-      Sometimes. That makes it worth it in the end."'
+    DialogueQuote: It worked out pretty well for me so far. It makes Lily smile...
+      Sometimes. That makes it worth it in the end.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -34,7 +34,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"I don''t know how she puts up with me."'
+    DialogueQuote: I don't know how she puts up with me.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -50,7 +50,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"I hear Lily snicker"'
+    DialogueQuote: I hear Lily snicker
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []

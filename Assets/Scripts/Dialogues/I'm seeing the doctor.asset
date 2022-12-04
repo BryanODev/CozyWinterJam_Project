@@ -49,8 +49,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"Lily hums in acknoledgement, her gaze intently focused on the
-      window"'
+    DialogueQuote: Lily hums in acknoledgement, her gaze intently focused on the
+      window
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -58,9 +58,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"We''ve both struggled with depression our whole lives: and we
+    DialogueQuote: 'We''ve both struggled with depression our whole lives: and we
       both dealt with it in different ways. I''ve always been more open about it
-      thought."'
+      thought.'
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -68,8 +68,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"I think Lily believes it to be a shameful thing. Like it''s
-      something that can be cured. But, it can''t."'
+    DialogueQuote: I think Lily believes it to be a shameful thing. Like it's something
+      that can be cured. But, it can't.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -77,7 +77,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"If only it were that simple."'
+    DialogueQuote: If only it were that simple.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -94,7 +94,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"Ah. So, that''s it. It''s been eating at her this entire time."'
+    DialogueQuote: Ah. So, that's it. It's been eating at her this entire time.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -102,9 +102,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"Everyone our age felt obligated to go to college: like all the
+    DialogueQuote: 'Everyone our age felt obligated to go to college: like all the
       answers to life were all on a rolled up piece of parchment paper you were handed
-      on a stage."'
+      on a stage.'
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -112,9 +112,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"The truth is, I''m pretty damn sure it doesn''t matter anymore.
+    DialogueQuote: 'The truth is, I''m pretty damn sure it doesn''t matter anymore.
       It''s like another extension of delaying the inevitable: the big bad world
-      of ''work until you die''."'
+      of ''work until you die''.'
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -122,8 +122,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"College is just another safety net: so we can feel like kids
-      for a little while longer."'
+    DialogueQuote: 'College is just another safety net: so we can feel like kids
+      for a little while longer.'
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []

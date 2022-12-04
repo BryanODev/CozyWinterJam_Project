@@ -15,8 +15,8 @@ MonoBehaviour:
   DialogueTitle: It scares me too.
   Quotes:
   - PersonTalking: 
-    DialogueQuote: '"Lily reaches over to hold my hand: it''s soft and warm. She
-      queezes it, and we look at each other for a moment. I have to hold my breath."'
+    DialogueQuote: 'Lily reaches over to hold my hand: it''s soft and warm. She queezes
+      it, and we look at each other for a moment. I have to hold my breath.'
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -24,9 +24,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"I don''t want her to see how nervous I am. I feel like some
-      lovesick kid trying to figure out the best way to kiss someone''s cheek and
-      run away fast enought."'
+    DialogueQuote: I don't want her to see how nervous I am. I feel like some lovesick
+      kid trying to figure out the best way to kiss someone's cheek and run away
+      fast enought.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -34,8 +34,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"But, it doesn''t work like that anymore. Love is far more complicated
-      than that. Love is something I''ve always had trouble grasping."'
+    DialogueQuote: But, it doesn't work like that anymore. Love is far more complicated
+      than that. Love is something I've always had trouble grasping.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -43,7 +43,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"With Lily, it feels real. Like how it must feel in movies."'
+    DialogueQuote: With Lily, it feels real. Like how it must feel in movies.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -76,8 +76,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"I''d be lying if I said that I wasn''t worried about it. That''s
-      how life goes when you grow up."'
+    DialogueQuote: I'd be lying if I said that I wasn't worried about it. That's
+      how life goes when you grow up.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -85,8 +85,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"I mean, how many people are still friends with the people tehy
-      went to hight school with? Not many. unless they''re ''high school sweethearts''."'
+    DialogueQuote: I mean, how many people are still friends with the people tehy
+      went to hight school with? Not many. unless they're 'high school sweethearts'.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -94,8 +94,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"I couldn''t imagine living without Lily. But, what if one day
-      we just stop talking? Like, we don''t even realise it, and it''s too late?"'
+    DialogueQuote: I couldn't imagine living without Lily. But, what if one day we
+      just stop talking? Like, we don't even realise it, and it's too late?
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -103,8 +103,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"What if Lily meets someone else, and realises she doesn''t need
-      me anymore...?"'
+    DialogueQuote: What if Lily meets someone else, and realises she doesn't need
+      me anymore...?
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []

@@ -24,8 +24,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"I say it with such confidence that I startle myself, but at
-      the same time, I barely believe what I''m saying."'
+    DialogueQuote: I say it with such confidence that I startle myself, but at the
+      same time, I barely believe what I'm saying.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -33,8 +33,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"Life rips people away from each other, like tugging at a bow
-      to unravel it seamlessly."'
+    DialogueQuote: Life rips people away from each other, like tugging at a bow to
+      unravel it seamlessly.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -66,8 +66,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"It startles me how quickly Lily''s tone has changed. It''s firm,
-      but she''s still smiling... Even a little sadly."'
+    DialogueQuote: It startles me how quickly Lily's tone has changed. It's firm,
+      but she's still smiling... Even a little sadly.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -75,7 +75,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"How do I even respond to that?"'
+    DialogueQuote: How do I even respond to that?
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
