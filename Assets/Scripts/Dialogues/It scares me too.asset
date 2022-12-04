@@ -15,9 +15,9 @@ MonoBehaviour:
   DialogueTitle: It scares me too.
   Quotes:
   - PersonTalking: 
-    DialogueQuote: '"It terrifies me, really. That my entire childhood is slipping
+    DialogueQuote: 'It terrifies me, really. That my entire childhood is slipping
       away: it''s like I''m cupping water in my hands. Every drip of my knuckles
-      is another year gone."'
+      is another year gone.'
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -25,8 +25,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"It''s slipping away faster and faster. How did time start going
-      so fast? I want independence but at the same time..."'
+    DialogueQuote: It's slipping away faster and faster. How did time start going
+      so fast? I want independence but at the same time...
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -34,8 +34,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"What if I''m a  terrible adult? What if I fail at every expectation?
-      What if I fail at achieving my dreams...?"'
+    DialogueQuote: What if I'm a  terrible adult? What if I fail at every expectation?
+      What if I fail at achieving my dreams...?
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -67,8 +67,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"We share a smile. Admitting my fears feel like breathing when
-      I''m with Lily: she doesn''t really realise how much comfort she exudes."'
+    DialogueQuote: 'We share a smile. Admitting my fears feel like breathing when
+      I''m with Lily: she doesn''t really realise how much comfort she exudes.'
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -76,7 +76,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"I don''t want to live without her."'
+    DialogueQuote: I don't want to live without her.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []

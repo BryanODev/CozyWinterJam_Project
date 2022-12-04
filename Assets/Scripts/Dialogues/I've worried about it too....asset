@@ -24,8 +24,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"I trip over my own words, and I feel a flush crawl into my cheeks.
-      I''m really giving my self away here, and it''s embarrasing."'
+    DialogueQuote: I trip over my own words, and I feel a flush crawl into my cheeks.
+      I'm really giving my self away here, and it's embarrasing.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -33,8 +33,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"There''s no point in trying to deny it: the fear I feel every
-      time I laught and bond with a classmate."'
+    DialogueQuote: 'There''s no point in trying to deny it: the fear I feel every
+      time I laught and bond with a classmate.'
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -51,8 +51,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"My heart drops into my stomach. I really didn''t want Lily to
-      feed into my fears, but it happened anyway."'
+    DialogueQuote: My heart drops into my stomach. I really didn't want Lily to feed
+      into my fears, but it happened anyway.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -60,7 +60,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"All the words in my mouth fizzle away, and my tongue feels dry."'
+    DialogueQuote: All the words in my mouth fizzle away, and my tongue feels dry.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -102,8 +102,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"We''ve always had a fre differences. I like theme parks, swimming
-      and ice skating... But, Lily hates all of that."'
+    DialogueQuote: We've always had a fre differences. I like theme parks, swimming
+      and ice skating... But, Lily hates all of that.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -111,7 +111,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"Lily likes long walks among nature, going to the beach...."'
+    DialogueQuote: Lily likes long walks among nature, going to the beach....
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -119,7 +119,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"I hate all of that."'
+    DialogueQuote: I hate all of that.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -127,8 +127,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"But, isn''t that what makes connecting with people so special?
-      That we''re all different inside, even if we share interests?"'
+    DialogueQuote: But, isn't that what makes connecting with people so special?
+      That we're all different inside, even if we share interests?
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -136,7 +136,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"No one person will ever be exactly the same as another."'
+    DialogueQuote: No one person will ever be exactly the same as another.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -144,7 +144,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"We fall into silence again."'
+    DialogueQuote: We fall into silence again.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
