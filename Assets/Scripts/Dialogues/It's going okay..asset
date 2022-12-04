@@ -15,8 +15,8 @@ MonoBehaviour:
   DialogueTitle: It's going okay
   Quotes:
   - PersonTalking: Mia
-    DialogueQuote: I mean... It's going okey. The therapist I'm seeing seems nice
-      enought. He looks like a therapist you see in movies.
+    DialogueQuote: I mean... It's going okay. The therapist I'm seeing seems nice
+      enough. He looks like a therapist you see in movies.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -40,7 +40,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: So cliche. I lvoe it
+    DialogueQuote: So cliche. I love it
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -48,9 +48,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: 'We laught together. Her laught sounds like gentle bells on a
-      crisp winter''s morning: a breath of fresh air. I feel guilty - and cheesy
-      as all hell - for making such comparisons.'
+    DialogueQuote: 'We laugh together. Her laught sounds like gentle bells on a crisp
+      winter''s morning: a breath of fresh air. I feel guilty - and cheesy as all
+      hell - for making such comparisons.'
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -58,7 +58,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: I can't help itm though. Lily makes it so easy.
+    DialogueQuote: I can't help it though. Lily makes it so easy.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []

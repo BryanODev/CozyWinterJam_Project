@@ -114,7 +114,7 @@ MonoBehaviour:
     OnStripEndEvent:
       m_PersistentCalls:
         m_Calls: []
-  endsOnQuestion: 0
+  endsOnQuestion: 1
   Options:
   - {fileID: 11400000, guid: 9bb2b7b4afa742d4b9863731bb54a5b6, type: 2}
   - {fileID: 11400000, guid: 034dac20ddce43040b08a96ced690eb8, type: 2}
