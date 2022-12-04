@@ -66,7 +66,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: Like I'm exposing the deepest parts of my self. Like someone's
+    DialogueQuote: Like I'm exposing the deepest parts of myself. Like someone's
       seeing something I don't want them to see.
     OnStripStartEvent:
       m_PersistentCalls:

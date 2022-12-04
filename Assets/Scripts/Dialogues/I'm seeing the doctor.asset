@@ -23,7 +23,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Mia
-    DialogueQuote: Oh
+    DialogueQuote: Oh.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -49,7 +49,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: Lily hums in acknoledgement, her gaze intently focused on the
+    DialogueQuote: Lily hums in acknowledgement, her gaze intently focused on the
       window
     OnStripStartEvent:
       m_PersistentCalls:
@@ -60,7 +60,7 @@ MonoBehaviour:
   - PersonTalking: 
     DialogueQuote: 'We''ve both struggled with depression our whole lives: and we
       both dealt with it in different ways. I''ve always been more open about it
-      thought.'
+      though.'
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []

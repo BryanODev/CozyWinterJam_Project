@@ -40,7 +40,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: Maybe it's better this way. I won't have to embarras myself now,
+    DialogueQuote: Maybe it's better this way. I won't have to embarrass myself now,
       and I know that Lily will be happy.
     OnStripStartEvent:
       m_PersistentCalls:
@@ -65,7 +65,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: And, I love her enought to not do this to her.
+    DialogueQuote: And, I love her enough to not do this to her.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -90,7 +90,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Mia
-    DialogueQuote: Yes, you idiot! Text him. You don't wnat him slipping away, right?
+    DialogueQuote: Yes, you idiot! Text him. You don't want him slipping away, right?
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -131,8 +131,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: 'even though it hurts... Her smile warms my entire body. This
-      is the best thing for her: to branch out and find love with someone new.'
+    DialogueQuote: Even though it hurts... Her smile warms my entire body. This is
+      the best thing for her; to branch out and find love with someone new.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []

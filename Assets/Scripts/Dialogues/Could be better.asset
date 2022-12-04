@@ -24,7 +24,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: Is it helpful, though? Does he makes you feel uncomfortable at
+    DialogueQuote: Is it helpful, though? Does he make you feel uncomfortable at
       all?
     OnStripStartEvent:
       m_PersistentCalls:
@@ -33,7 +33,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Mia
-    DialogueQuote: Oh - no, he's great, really. I just feel... embarrased, I guess.
+    DialogueQuote: Oh - no, he's great, really. I just feel... embarrassed, I guess.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -68,7 +68,7 @@ MonoBehaviour:
         m_Calls: []
   - PersonTalking: 
     DialogueQuote: I know she's right, but I just feel like I need to be more hard
-      on my self. That maybe this is something I can overcome eventually...
+      on myself. That maybe this is something I can overcome eventually...
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -76,8 +76,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: 'But, it doesn''t work like that. It never will. Depression is
-      something you learn to manage: not something you can cure.'
+    DialogueQuote: But, it doesn't work like that. It never will. Depression is something
+      you learn to manage; not something you can cure.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -86,7 +86,7 @@ MonoBehaviour:
         m_Calls: []
   - PersonTalking: 
     DialogueQuote: It changes your mind forever, and it's becoming more and more
-      common to discuss. At least the world is beggining to understand.
+      common to discuss. At least the world is beginning to understand.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []

@@ -50,7 +50,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: Me? With a art gallery? I think you're dreaming too big.
+    DialogueQuote: Me? With an art gallery? I think you're dreaming too big.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []

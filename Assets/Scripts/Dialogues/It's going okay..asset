@@ -40,7 +40,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: So cliche. I love it
+    DialogueQuote: So cliche. I love it.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -48,9 +48,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: 'We laugh together. Her laught sounds like gentle bells on a crisp
-      winter''s morning: a breath of fresh air. I feel guilty - and cheesy as all
-      hell - for making such comparisons.'
+    DialogueQuote: We laugh together. Her laugh sounds like gentle bells on a crisp
+      winter's morning, a breath of fresh air. I feel guilty - and cheesy as all
+      hell - for making such comparisons.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []

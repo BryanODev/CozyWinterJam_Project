@@ -32,7 +32,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: Maybe next time we'l go somewhere else...? I've never see the
+    DialogueQuote: Maybe next time we'll go somewhere else...? I've never see the
       Northern Lights up close.
     OnStripStartEvent:
       m_PersistentCalls:
@@ -83,7 +83,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: This is us. Best friends, and my first  real crush since my first
+    DialogueQuote: This is us. Best friends, and my first real crush since my first
       boyfriend. We can't drift apart right?
     OnStripStartEvent:
       m_PersistentCalls:
@@ -93,7 +93,7 @@ MonoBehaviour:
         m_Calls: []
   - PersonTalking: 
     DialogueQuote: It feels like every day we've been at college, I've felt her slipping
-      away from my grasp. Trying to talk everyday is like raking my fingers throught
+      away from my grasp. Trying to talk everyday is like raking my fingers through
       dry sand to create an oasis.
     OnStripStartEvent:
       m_PersistentCalls:
@@ -102,7 +102,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: It's tiering. It's difficult. But, I'm trying.
+    DialogueQuote: It's tiring. It's difficult. But, I'm trying.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []

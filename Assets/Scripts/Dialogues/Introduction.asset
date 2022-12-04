@@ -54,7 +54,7 @@ MonoBehaviour:
         m_Calls: []
   - PersonTalking: 
     DialogueQuote: "As we settle by the fire for the night, the conversation dwindles
-      into\r comfortable silence. It\u2019s easy with Lily: ever since we first met,
+      into\r comfortable silence. It\u2019s easy with Lily; ever since we first met,
       she made\r everything effortless.\r"
     OnStripStartEvent:
       m_PersistentCalls:
@@ -64,7 +64,7 @@ MonoBehaviour:
         m_Calls: []
   - PersonTalking: 
     DialogueQuote: "Six years. That\u2019s how long we\u2019ve known each other.
-      From art class to this:\r two best friends on vacation before they return to
+      From art class to this; two best friends on vacation before they return to
       college for the spring.\r"
     OnStripStartEvent:
       m_PersistentCalls:

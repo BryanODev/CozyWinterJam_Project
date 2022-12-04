@@ -157,7 +157,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Mia
-    DialogueQuote: Yea- It's fine. It's... It's okay. It was selfish of me to say
+    DialogueQuote: Yea - It's fine. It's... It's okay. It was selfish of me to say
       anything.
     OnStripStartEvent:
       m_PersistentCalls:
@@ -176,7 +176,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: I somehow muster a little laught. She laughts too.
+    DialogueQuote: I somehow muster a little laugh. She laughs too.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -192,7 +192,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: I just hope this doesn't amke things awkward between us...
+    DialogueQuote: I just hope this doesn't make things awkward between us...
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []

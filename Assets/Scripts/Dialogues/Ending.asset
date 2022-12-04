@@ -31,8 +31,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: 'There''s a sinking feeling in my gut: I have a inkling that whatever
-      I hear next won''t make me feel any better about myself.'
+    DialogueQuote: There's a sinking feeling in my gut... I have an inkling that
+      whatever I hear next won't make me feel any better about myself.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -57,7 +57,7 @@ MonoBehaviour:
         m_Calls: []
   - PersonTalking: 
     DialogueQuote: She pauses. Then, she smiles. It's a smile that's lighthearted
-      and child-like. It's wonderful, and infectious. I find my self smiling too.
+      and child-like. It's wonderful, and infectious. I find myself smiling too.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -73,7 +73,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: I met this guy in my class. Connor. He wants to be an art teacher.
+    DialogueQuote: I met this guy in my class, Connor. He wants to be an art teacher.
       He's .... Really cute. And, sweet.
     OnStripStartEvent:
       m_PersistentCalls:
@@ -82,7 +82,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: Oh
+    DialogueQuote: Oh.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -124,7 +124,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: Everthing is wrong. Everything.
+    DialogueQuote: Everything is wrong. Everything.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []

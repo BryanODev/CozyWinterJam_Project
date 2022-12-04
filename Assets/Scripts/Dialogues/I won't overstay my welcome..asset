@@ -40,7 +40,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: Obviously
+    DialogueQuote: Obviously.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []

@@ -16,7 +16,7 @@ MonoBehaviour:
   Quotes:
   - PersonTalking: 
     DialogueQuote: 'It only feels natural for me to alleviate the tension somehow.
-      That''s something I picked up  half-way throught high school: humour as a defence
+      That''s something I picked up  half-way through high school: humour as a defence
       mechanism.'
     OnStripStartEvent:
       m_PersistentCalls:
@@ -50,7 +50,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: I hear Lily snicker
+    DialogueQuote: I hear Lily snicker.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []

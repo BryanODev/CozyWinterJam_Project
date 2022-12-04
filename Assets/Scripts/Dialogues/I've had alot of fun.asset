@@ -15,8 +15,8 @@ MonoBehaviour:
   DialogueTitle: It scares me too.
   Quotes:
   - PersonTalking: 
-    DialogueQuote: 'Lily reaches over to hold my hand: it''s soft and warm. She queezes
-      it, and we look at each other for a moment. I have to hold my breath.'
+    DialogueQuote: Lily reaches over to hold my hand, it's soft and warm. She squeezes
+      it, and we look at each other for a moment. I have to hold my breath.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -25,8 +25,8 @@ MonoBehaviour:
         m_Calls: []
   - PersonTalking: 
     DialogueQuote: I don't want her to see how nervous I am. I feel like some lovesick
-      kid trying to figure out the best way to kiss someone's cheek and run away
-      fast enought.
+      kid trying to figure out the best way to kiss someones cheek and run away fast
+      enough.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -85,8 +85,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: I mean, how many people are still friends with the people tehy
-      went to hight school with? Not many. unless they're 'high school sweethearts'.
+    DialogueQuote: I mean, how many people are still friends with the people they
+      went to high school with? Not many. unless they're 'high school sweethearts'.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []

@@ -33,7 +33,7 @@ MonoBehaviour:
         m_Calls: []
   - PersonTalking: 
     DialogueQuote: 'We fall into a comfortable silence for a moment. I do worry about
-      Lily more than I would worry about my self: even thogh we suffer from similar
+      Lily more than I would worry about myself: even though we suffer from similar
       things.'
     OnStripStartEvent:
       m_PersistentCalls:
@@ -43,7 +43,7 @@ MonoBehaviour:
         m_Calls: []
   - PersonTalking: 
     DialogueQuote: Anxiety and depression are common topics of conversation, but
-      we've learned to let the moment settle when we've had enought.
+      we've learned to let the moment settle when we've had enough.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -88,7 +88,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Mia
-    DialogueQuote: Ah,sweet Janet... I'll only come if she makes those gingerbread
+    DialogueQuote: Ah, sweet Janet... I'll only come if she makes those gingerbread
       rocky road bites.
     OnStripStartEvent:
       m_PersistentCalls:

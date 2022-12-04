@@ -15,7 +15,7 @@ MonoBehaviour:
   DialogueTitle: 
   Quotes:
   - PersonTalking: Lily
-    DialogueQuote: Hey
+    DialogueQuote: Hey.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []

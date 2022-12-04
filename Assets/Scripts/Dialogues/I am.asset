@@ -84,7 +84,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: -The silence returns, but only for a moment. Lily looks at the
+    DialogueQuote: The silence returns, but only for a moment. Lily looks out the
       window.
     OnStripStartEvent:
       m_PersistentCalls:
