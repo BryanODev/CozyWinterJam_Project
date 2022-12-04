@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Dialogue : MonoBehaviour
 {
@@ -26,12 +27,22 @@ public class Dialogue : MonoBehaviour
     public float dialogueSlowDrawSpeed = 0.05f;
     public float dialogueFastDrawSpeed = 0.005f;
 
+    public Image BlackScreen;
+    public TMP_Text EndText;
+    bool BlackScreenOn;
+
     [Header("Audio")]
     [SerializeField] private AudioSource voxAudioSource;
     [SerializeField] AudioClip[] narratorAudioClip;
     [SerializeField] AudioClip[] lilyAudioClip;
     [SerializeField] AudioClip[] miaAudioClip;
+    [SerializeField] AudioClip CarDoorSlam;
+    [SerializeField] AudioClip DoorClose;
 
+    public Image Mia;
+    public Image Lily;
+
+    public Color silluhetColor;
 
     private void Awake()
     {
@@ -45,7 +56,7 @@ public class Dialogue : MonoBehaviour
 
     private void Start()
     {
-        SetCurrentDialogue(currentDialogue);
+        StartCoroutine(StartFadeOut());
     }
 
     public void ToggleDialogue(bool isActive)
@@ -60,6 +71,23 @@ public class Dialogue : MonoBehaviour
         currentDialogue = newCurrentDialogue;
         currentDialogueMaxText = currentDialogue.Quotes.Length;
         currentDialogueIndex = 0;
+
+
+        if (currentDialogue.Quotes[currentDialogueIndex].PersonTalking == "Mia")
+        {
+            Mia.color = Color.white;
+            Lily.color = silluhetColor;
+        }
+        else if (currentDialogue.Quotes[currentDialogueIndex].PersonTalking == "Lily")
+        {
+            Lily.color = Color.white;
+            Mia.color = silluhetColor;
+        }
+        else
+        {
+            Mia.color = silluhetColor;
+            Lily.color = silluhetColor;
+        }
 
         //Start the Dialogue when we set it
 
@@ -116,6 +144,22 @@ public class Dialogue : MonoBehaviour
     void NextLine()
     {
         DialogueNameText.SetText(currentDialogue.Quotes[currentDialogueIndex].PersonTalking);
+
+        if (currentDialogue.Quotes[currentDialogueIndex].PersonTalking == "Mia")
+        {
+            Mia.color = Color.white;
+            Lily.color = silluhetColor;
+        }
+        else if (currentDialogue.Quotes[currentDialogueIndex].PersonTalking == "Lily")
+        {
+            Lily.color = Color.white;
+            Mia.color = silluhetColor;
+        }
+        else 
+        {
+            Mia.color = silluhetColor;
+            Lily.color = silluhetColor;
+        }
 
         if (DialogueNameText.text == "")
         {
@@ -277,7 +321,79 @@ public class Dialogue : MonoBehaviour
     {
         Debug.Log("End game");
 
+        StartCoroutine(StartFadeIn());
+
         //Go to a level, close or w/e action we want
+    }
+
+    public void PlayCarDoorSlam()
+    {
+        voxAudioSource.PlayOneShot(CarDoorSlam); 
+    }
+
+    public void PlayDoorClose()
+    {
+        voxAudioSource.PlayOneShot(DoorClose);
+    }
+
+    IEnumerator StartFadeIn() 
+    {
+        BlackScreen.gameObject.SetActive(true);
+        Color newColor = Color.black;
+        Color EndnewColor = EndText.color;
+        float Alpha = 0;
+
+        while (Alpha < 1) 
+        {
+            Alpha += 0.25f * Time.deltaTime;
+            newColor.a = Alpha;
+            EndnewColor.a = Alpha;
+            BlackScreen.color = newColor;
+            EndText.color = EndnewColor;
+
+            yield return new WaitForEndOfFrame();
+        }
+
+        Alpha = 1;
+        newColor.a = Alpha;
+        EndnewColor.a = Alpha;
+        BlackScreen.color = newColor;
+        EndText.color = EndnewColor;
+
+        //We end game and go to title
+        Invoke("ReturnToTitleMenu", 3.0f);
+
+        yield return null;
+    }
+
+    IEnumerator StartFadeOut() 
+    {
+        Color newColor = Color.black;
+        float Alpha = 1;
+
+        while (Alpha > 0)
+        {
+            Alpha -= 0.25f * Time.deltaTime;
+            newColor.a = Alpha;
+            BlackScreen.color = newColor;
+
+            yield return new WaitForEndOfFrame();
+        }
+
+        Alpha = 0;
+        newColor.a = Alpha;
+        BlackScreen.color = newColor;
+
+        //We start game
+        BlackScreen.gameObject.SetActive(false);
+        SetCurrentDialogue(currentDialogue);
+
+        yield return null;
+    }
+
+    void ReturnToTitleMenu() 
+    {
+        SceneManager.LoadScene(0);
     }
 
 }

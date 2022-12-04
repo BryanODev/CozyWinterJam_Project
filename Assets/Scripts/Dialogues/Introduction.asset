@@ -18,38 +18,110 @@ MonoBehaviour:
     DialogueQuote: "The last leg of our journey. It\u2019s been one hell of a winter
       vacation, and I\u2019m\r not sure if I want it to be over just yet. That\u2019s
       how it goes with vacations.\r\n"
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: 
     DialogueQuote: "The car left a cloud of hot smog as we parked up outside the
       cabin. It was Lily\u2019s idea to rent the place for a night. She always has
       the best ideas."
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: 
     DialogueQuote: "A gentle snowfall began as we settled in for the night, a sense
       of calm\r overtaking me as I watched the ice climb up the glass."
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: 
     DialogueQuote: "There\u2019s no better feeling than this: inside and warm by
       the fire, whilst the\r cold world beyond the wood continues to spin."
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: 
     DialogueQuote: "As we settle by the fire for the night, the conversation dwindles
       into\r comfortable silence. It\u2019s easy with Lily: ever since we first met,
       she made\r everything effortless.\r"
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: 
     DialogueQuote: "Six years. That\u2019s how long we\u2019ve known each other.
       From art class to this:\r two best friends on vacation before they return to
       college for the spring.\r"
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: 
     DialogueQuote: "I don\u2019t want to go back. I don\u2019t want this to end."
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: 
     DialogueQuote: "There\u2019s things I want to say. People drift apart when they
       go to college, I\r know that much. I don\u2019t want to miss this chance."
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: 
     DialogueQuote: To tell her how I feel...
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: Lily
     DialogueQuote: So. Excited to get back?
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: Mia
     DialogueQuote: Huh?
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: Lily
     DialogueQuote: College. You haven't stopped writing in your notebook this entire
       time. You're itching to get back to it.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   endsOnQuestion: 1
   Options:
   - {fileID: 11400000, guid: 1d1a748af9546a24380b15b2babd4258, type: 2}

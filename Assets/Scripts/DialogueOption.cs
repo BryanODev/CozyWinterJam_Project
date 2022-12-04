@@ -69,7 +69,7 @@ public class DialogueOption : MonoBehaviour
 
     public void OnPointerEnter() 
     {
-        optionText.fontSize = fontSize + 30.0f;
+        optionText.fontSize = fontSize + 15.0f;
     }
 
     public void OnPointerExit()

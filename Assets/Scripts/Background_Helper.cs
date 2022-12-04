@@ -8,7 +8,7 @@ public class Background_Helper : MonoBehaviour
     bool FadeOut = false;
     Color backgroundColor;
     public float opacity = 1;
-    SpriteRenderer spriteRenderer;
+    Image spriteRenderer;
 
     public float opacityDifference = 0.1f;
     public float opacityMin;
@@ -17,7 +17,7 @@ public class Background_Helper : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       spriteRenderer = GetComponent<SpriteRenderer>();
+       spriteRenderer = GetComponent<Image>();
         backgroundColor = spriteRenderer.color;
     }
 
