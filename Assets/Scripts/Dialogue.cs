@@ -24,10 +24,14 @@ public class Dialogue : MonoBehaviour
     public float dialogueSlowDrawSpeed = 0.05f;
     public float dialogueFastDrawSpeed = 0.005f;
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource voxAudioSource;
+    [SerializeField] AudioClip[] voxAudioClip;
+
 
     private void Awake()
     {
-        for (int i = 0; i < 4; i++) 
+        for (int i = 0; i < 4; i++)
         {
             DialogueOption optionInstance = Instantiate(DialogueOptionPrefab, DialogueOptionsPanel.transform).GetComponent<DialogueOption>();
             optionInstance.InitializeOption(this);
@@ -59,7 +63,7 @@ public class Dialogue : MonoBehaviour
             DialogueNameText.SetText(currentDialogue.Quotes[currentDialogueIndex].PersonTalking);
             StartCoroutine(DrawDialogueText(currentDialogue.Quotes[currentDialogueIndex].DialogueQuote));
         }
-        else 
+        else
         {
             Debug.LogError("This dialogue is Invalid! Has no Quotes!");
         }
@@ -79,20 +83,22 @@ public class Dialogue : MonoBehaviour
             if (Input.GetMouseButton(0))
             {
                 dialogueCurrentDrawSpeed = dialogueFastDrawSpeed;
+                //voxAudioSource.pitch = 1.5f;
             }
             else
             {
                 dialogueCurrentDrawSpeed = dialogueSlowDrawSpeed;
+                //voxAudioSource.pitch = 1;
             }
         }
     }
 
-    bool EndOfDialogue() 
+    bool EndOfDialogue()
     {
         return currentDialogueIndex == currentDialogueMaxText - 1;
     }
 
-    void NextLine() 
+    void NextLine()
     {
         DialogueNameText.SetText(currentDialogue.Quotes[currentDialogueIndex].PersonTalking);
 
@@ -103,7 +109,7 @@ public class Dialogue : MonoBehaviour
         StartCoroutine(DrawDialogueText(currentDialogue.Quotes[currentDialogueIndex].DialogueQuote));
     }
 
-    IEnumerator DrawDialogueText(string Text) 
+    IEnumerator DrawDialogueText(string Text)
     {
         EmptyDialogue();
 
@@ -111,11 +117,18 @@ public class Dialogue : MonoBehaviour
 
         float textSize = Text.Length;
 
-        for (int i = 0; i < textSize; i++) 
+        for (int i = 0; i < textSize; i++)
         {
             DialogueText.text += Text[i];
             RemoveR();
-
+            if (dialogueCurrentDrawSpeed == 0.05f)
+            {
+                voxAudioSource.PlayOneShot(voxAudioClip[Random.Range(0, voxAudioClip.Length)]);
+            }
+            else
+            {
+                voxAudioSource.Stop();
+            }
             yield return new WaitForSeconds(dialogueCurrentDrawSpeed);
         }
 
@@ -124,13 +137,13 @@ public class Dialogue : MonoBehaviour
         yield return null;
     }
 
-    void OnDialogueTextFinish() 
+    void OnDialogueTextFinish()
     {
-        if (EndOfDialogue()) 
+        if (EndOfDialogue())
         {
             waitForPlayerInteraction = false;
 
-            if (currentDialogue.endsOnQuestion) 
+            if (currentDialogue.endsOnQuestion)
             {
                 //We enable the selection box
                 ToggleOptionPanel(true);
@@ -149,7 +162,7 @@ public class Dialogue : MonoBehaviour
                     {
                         OptionList[i].AssignDialogueOption(currentDialogue.Options[i]);
                     }
-                    else 
+                    else
                     {
                         OptionList[i].ToggleOption(false);
                     }
@@ -162,7 +175,7 @@ public class Dialogue : MonoBehaviour
 
             }
         }
-        else 
+        else
         {
             //call quote on end strip event
             currentDialogue.Quotes[currentDialogueIndex].OnStripEndEvent.Invoke();
@@ -173,17 +186,17 @@ public class Dialogue : MonoBehaviour
         }
     }
 
-    public void RemoveR() 
+    public void RemoveR()
     {
         DialogueText.text = DialogueText.text.Replace("\r", "");
     }
 
-    void EmptyDialogue() 
+    void EmptyDialogue()
     {
         DialogueText.SetText("");
     }
 
-    public void ToggleOptionPanel(bool isActive) 
+    public void ToggleOptionPanel(bool isActive)
     {
         DialogueOptionsPanel.SetActive(isActive);
     }

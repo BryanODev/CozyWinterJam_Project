@@ -611,6 +611,107 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1127651381 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8711103774132605328, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
+  m_PrefabInstance: {fileID: 8711103774686569712}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1127651384
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127651381}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 07a18426833ad244cbc71e185c3ab7ac, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1791717268
 GameObject:
   m_ObjectHideFlags: 0
@@ -992,6 +1093,66 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8711103774132605329, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
+      propertyPath: voxAudioSource
+      value: 
+      objectReference: {fileID: 1127651384}
+    - target: {fileID: 8711103774132605329, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
+      propertyPath: voxAudioClip.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711103774132605329, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
+      propertyPath: voxAudioClip.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: b6653c1f0c7fdaa4a82b05c68524581c, type: 3}
+    - target: {fileID: 8711103774132605329, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
+      propertyPath: voxAudioClip.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: f029d84cdca37bf4b96866fd6e5aa161, type: 3}
+    - target: {fileID: 8711103774132605329, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
+      propertyPath: voxAudioClip.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 14b59d5add3e2bd45bc79678d3c2d46c, type: 3}
+    - target: {fileID: 8711103774132605329, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
+      propertyPath: voxAudioClip.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: f493aab1020a265498eaa79630251e21, type: 3}
+    - target: {fileID: 8711103774132605329, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
+      propertyPath: voxAudioClip.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 46a35a27274e4694ab8a84d576ff6ee2, type: 3}
+    - target: {fileID: 8711103774132605329, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
+      propertyPath: voxAudioClip.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: 33ae33467eadb1d4aba4a166a8900130, type: 3}
+    - target: {fileID: 8711103774132605329, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
+      propertyPath: voxAudioClip.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6962ce749aa23ed4b8e23c429c47d7f7, type: 3}
+    - target: {fileID: 8711103774132605329, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
+      propertyPath: voxAudioClip.Array.data[7]
+      value: 
+      objectReference: {fileID: 8300000, guid: e5086d152f05ef148a96cd67862fa348, type: 3}
+    - target: {fileID: 8711103774132605329, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
+      propertyPath: voxAudioClip.Array.data[8]
+      value: 
+      objectReference: {fileID: 8300000, guid: 1e05b18d7f3b7b94f84fb960623551fd, type: 3}
+    - target: {fileID: 8711103774132605329, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
+      propertyPath: voxAudioClip.Array.data[9]
+      value: 
+      objectReference: {fileID: 8300000, guid: b22f9db297d8a3144b1c9daca6302224, type: 3}
+    - target: {fileID: 8711103774132605329, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
+      propertyPath: voxAudioClip.Array.data[10]
+      value: 
+      objectReference: {fileID: 8300000, guid: dd3caede32a119f4eb6733928eca203e, type: 3}
+    - target: {fileID: 8711103774132605329, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
+      propertyPath: voxAudioClip.Array.data[11]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6209755461e992145aa0b6ebf5a0e3d4, type: 3}
+    - target: {fileID: 8711103774132605329, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
+      propertyPath: voxAudioClip.Array.data[12]
+      value: 
+      objectReference: {fileID: 8300000, guid: 701efa62a7c42e44e902b67b892470a5, type: 3}
     - target: {fileID: 8711103775530416937, guid: ce1e3846951b9054b8355ce31a1f459f, type: 3}
       propertyPath: m_Name
       value: Player
