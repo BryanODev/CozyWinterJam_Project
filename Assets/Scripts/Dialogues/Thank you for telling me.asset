@@ -10,20 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6685f8597e71cca45a7dffde5153d165, type: 3}
-  m_Name: Not really...
+  m_Name: Thank you for telling me
   m_EditorClassIdentifier: 
-  DialogueTitle: Not really...
+  DialogueTitle: 
   Quotes:
-  - PersonTalking: Mia
-    DialogueQuote: Not really...
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: Why is that?
+    DialogueQuote: Thank you for telling me. I know that must've been hard for you.
+      I'm just glad you trust me enough.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -31,8 +24,60 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Mia
-    DialogueQuote: I've had fun. Don't really want it to end, you know? It's a feeling
-      of dread.
+    DialogueQuote: Of course I trust you. You're my best friend. I know you'd tell
+      me anything, so... I know I can tell you anything.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: Hell, I didn't even know if I was ready to accept such a  tihng
+      about myself... But, here's Lily, making it easy and meaningful.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: We've shared plenty of secrets over the years, and we've seen
+      the most vulnerable part of each other being.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: I know things about Lily that not even her parents know, and she
+      could probably say the same thing about me.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: I know about her sadness. The things she hides from everyone else.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: Everything. There's something very intimate and sad about that,
+      but I know she trusts me.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: Just like I trust her.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -40,7 +85,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: Yeah, I feel that way too.
+    DialogueQuote: I know we haven't had much of a chance to talk about it, but...
+      How's therapy going?
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -48,8 +94,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: At least I'm not alone in how I feel. There's a lot I want to
-      do and say before our trip comes to an end, but...
+    DialogueQuote: I guess whilst we were travelling, we didn't really focus too
+      much on these kinds of topics. I started seeing a counsellor back home, but
+      that changed at college.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -57,8 +104,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: I've never been good with my own feelings. Whenever I start speaking
-      openly about my feelings, it's like stripping myself nude.
+    DialogueQuote: I thought I could handle leaving therapy and going to college,
+      but it feels like I'm drowning everyday. Like someone put a bunch of rocks
+      in my pocket and pushed me into a pool.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -66,8 +114,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: Like I'm exposing the deepest parts of my self. Like someone's
-      seeing something I don't want them to see.
+    DialogueQuote: Luckily, the college I'm attending offers free therapy and I started
+      seeing a nice guy called Andrew.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -75,39 +123,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: It makes my stomach turn.
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: Lily
-    DialogueQuote: Is there something you want to tell me?
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: I guess Lily caught onto my anxiety...
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: Maybe it's ok to tell her...
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: Maybe.
+    DialogueQuote: I've never had a male therapist before, but... He's nice. He has
+      a kind face.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -116,6 +133,6 @@ MonoBehaviour:
         m_Calls: []
   endsOnQuestion: 0
   Options:
-  - {fileID: 11400000, guid: 9bb2b7b4afa742d4b9863731bb54a5b6, type: 2}
-  - {fileID: 11400000, guid: 034dac20ddce43040b08a96ced690eb8, type: 2}
+  - {fileID: 11400000, guid: fb59317435b267a41b6fda2c46d9cbd6, type: 2}
+  - {fileID: 11400000, guid: 04700065a1fedff4db93761de83e16ea, type: 2}
   NextDialogue: {fileID: 0}

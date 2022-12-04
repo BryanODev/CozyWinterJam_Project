@@ -17,24 +17,72 @@ MonoBehaviour:
   - PersonTalking: 
     DialogueQuote: '"These kinds of conversations are always difficult to have. You
       never really know what to say, but there''s optimism in growing up."'
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: 
     DialogueQuote: '"New experiences, a time for independence and the taste of pride
       that comes from becoming a successful adult."'
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: 
     DialogueQuote: '"Even if it sucks. Some good can come from it."'
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: Mia
     DialogueQuote: I don't know, I think it might be fun. Maybe one day, I'll be
       a decent journalist, and you'll have your own art gallery.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: Lily
     DialogueQuote: Me? With a art gallery? I think you're dreaming too big.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: Mia
     DialogueQuote: I'd visit your gallery every weekend. Maybe I'll buy a piece with
       all the money I have.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: 
     DialogueQuote: '"Lily smiles. The very sight makes my heart flutter. Her heart-shaped
       lips curving, with the flames reflecting off of the pink, glossy skin."'
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: 
     DialogueQuote: '"I swallow."'
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   endsOnQuestion: 0
   Options: []
-  NextDialogue: {fileID: 0}
+  NextDialogue: {fileID: 11400000, guid: 7118c7fcda73ce741b2a600d8db63dcc, type: 2}

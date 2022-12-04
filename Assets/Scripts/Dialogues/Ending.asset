@@ -10,57 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6685f8597e71cca45a7dffde5153d165, type: 3}
-  m_Name: I've worried about it too...
+  m_Name: Ending
   m_EditorClassIdentifier: 
-  DialogueTitle: I've worried about it too...
+  DialogueTitle: 
   Quotes:
-  - PersonTalking: Mia
-    DialogueQuote: I've worried about it too.... But, I don't want to lose you -
-      I mean, I just...
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: '"I trip over my own words, and I feel a flush crawl into my cheeks.
-      I''m really giving my self away here, and it''s embarrasing."'
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: '"There''s no point in trying to deny it: the fear I feel every
-      time I laught and bond with a classmate."'
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: I want to say the name. But, what if it just happens wihtout us
-      realising? I mean, surely you've made new friends, right?
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: '"My heart drops into my stomach. I really didn''t want Lily to
-      feed into my fears, but it happened anyway."'
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: '"All the words in my mouth fizzle away, and my tongue feels dry."'
+    DialogueQuote: I guess I forgot to mention something to you.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -68,8 +23,24 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Mia
-    DialogueQuote: I mean.... Yeah, I guess so. I mean, they're just classmates.
-      It's not like I'm going out and partying with them.
+    DialogueQuote: Oh yeah?
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: 'There''s a sinking feeling in my gut: I have a inkling that whatever
+      I hear next won''t make me feel any better about myself.'
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: I wonder if Lily can tell.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -77,16 +48,24 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: It's okey Mia. I've met a few nice people too... It's just...
-      How things are. We meet new people.
+    DialogueQuote: Well... It's not a big deal, but...
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
     OnStripEndEvent:
       m_PersistentCalls:
         m_Calls: []
-  - PersonTalking: Mia
-    DialogueQuote: People you have more in common with, I'm guessing?
+  - PersonTalking: 
+    DialogueQuote: She pauses. Then, she smiles. It's a smile that's lighthearted
+      and child-like. It's wonderful, and infectious. I find my self smiling too.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: I'm on the edge of my seat.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -94,7 +73,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: I... Well, yeah. In some ways.
+    DialogueQuote: I met this guy in my class. Connor. He wants to be an art teacher.
+      He's .... Really cute. And, sweet.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -102,8 +82,16 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"We''ve always had a fre differences. I like theme parks, swimming
-      and ice skating... But, Lily hates all of that."'
+    DialogueQuote: Oh
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: Lily
+    DialogueQuote: He gave me his number, actually. I'm gonna text him once I'm back
+      at college.... Do you think I should?
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -111,7 +99,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"Lily likes long walks among nature, going to the beach...."'
+    DialogueQuote: Why can't I move...?
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -119,7 +107,16 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"I hate all of that."'
+    DialogueQuote: It feels like the air has been sucked from my lungs. Everything
+      around me is crashing down, but I can't hear it.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: Lily
+    DialogueQuote: Mia...? What's wrong...?
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -127,8 +124,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"But, isn''t that what makes connecting with people so special?
-      That we''re all different inside, even if we share interests?"'
+    DialogueQuote: Everthing is wrong. Everything.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -136,7 +132,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"No one person will ever be exactly the same as another."'
+    DialogueQuote: Why...? Why is this happening...?
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -144,13 +140,15 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"We fall into silence again."'
+    DialogueQuote: What do I do...?
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
     OnStripEndEvent:
       m_PersistentCalls:
         m_Calls: []
-  endsOnQuestion: 0
-  Options: []
-  NextDialogue: {fileID: 11400000, guid: 62189a3cbaf68b447bd0a566937937d2, type: 2}
+  endsOnQuestion: 1
+  Options:
+  - {fileID: 11400000, guid: cb5592982ea67d048a1f9b14701fa63d, type: 2}
+  - {fileID: 11400000, guid: be76a440cd314724ca1a0fced4f12744, type: 2}
+  NextDialogue: {fileID: 0}

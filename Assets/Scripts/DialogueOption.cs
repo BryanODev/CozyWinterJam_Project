@@ -77,4 +77,9 @@ public class DialogueOption : MonoBehaviour
         optionText.fontSize = fontSize;
     }
 
+    private void OnDisable()
+    {
+        optionText.fontSize = fontSize;
+    }
+
 }

@@ -10,31 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6685f8597e71cca45a7dffde5153d165, type: 3}
-  m_Name: We'll always be together
+  m_Name: Could be better
   m_EditorClassIdentifier: 
-  DialogueTitle: We'll always be together
+  DialogueTitle: Could be better
   Quotes:
   - PersonTalking: Mia
-    DialogueQuote: We'll always be together. Even if we're far apart. A bond like
-      ours just doesn't fade into nothing.
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: '"I say it with such confidence that I startle myself, but at
-      the same time, I barely believe what I''m saying."'
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: '"Life rips people away from each other, like tugging at a bow
-      to unravel it seamlessly."'
+    DialogueQuote: It could be better, I guess. My therapist is a man, and I've never
+      had that before. All of my previous therapists were middle-aged women.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -42,7 +24,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: You seem so confident about that.
+    DialogueQuote: Is it helpful, though? Does he makes you feel uncomfortable at
+      all?
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -50,7 +33,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Mia
-    DialogueQuote: Hey. One of us has to be, right?
+    DialogueQuote: Oh - no, he's great, really. I just feel... embarrased, I guess.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -58,7 +41,25 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: Come on. You haven't made any new friends at college?
+    DialogueQuote: Why's that?
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: Mia
+    DialogueQuote: I don't know. I just feel like I shouldn't need therapy anymore.
+      I just want to be over this whole thing... But..
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: Lily
+    DialogueQuote: Aren't you always telling me that depression isn't something that
+      can just go away?
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -66,8 +67,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"It startles me how quickly Lily''s tone has changed. It''s firm,
-      but she''s still smiling... Even a little sadly."'
+    DialogueQuote: I know she's right, but I just feel like I need to be more hard
+      on my self. That maybe this is something I can overcome eventually...
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -75,7 +76,17 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"How do I even respond to that?"'
+    DialogueQuote: 'But, it doesn''t work like that. It never will. Depression is
+      something you learn to manage: not something you can cure.'
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: It changes your mind forever, and it's becoming more and more
+      common to discuss. At least the world is beggining to understand.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -84,4 +95,4 @@ MonoBehaviour:
         m_Calls: []
   endsOnQuestion: 0
   Options: []
-  NextDialogue: {fileID: 11400000, guid: 62189a3cbaf68b447bd0a566937937d2, type: 2}
+  NextDialogue: {fileID: 11400000, guid: 6e8b799fabce39f4c81e680467433c1f, type: 2}

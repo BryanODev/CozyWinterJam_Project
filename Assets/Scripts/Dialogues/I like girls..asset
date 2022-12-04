@@ -10,13 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6685f8597e71cca45a7dffde5153d165, type: 3}
-  m_Name: We'll always be together
+  m_Name: I like girls.
   m_EditorClassIdentifier: 
-  DialogueTitle: We'll always be together
+  DialogueTitle: I like girls.
   Quotes:
   - PersonTalking: Mia
-    DialogueQuote: We'll always be together. Even if we're far apart. A bond like
-      ours just doesn't fade into nothing.
+    DialogueQuote: I...
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -24,8 +23,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"I say it with such confidence that I startle myself, but at
-      the same time, I barely believe what I''m saying."'
+    DialogueQuote: 'I know that bisexuality isn''t a big deal. It''s more common
+      than people think: my case is a little different. They call it being ''biromantic'',
+      but...'
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -33,16 +33,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"Life rips people away from each other, like tugging at a bow
-      to unravel it seamlessly."'
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: Lily
-    DialogueQuote: You seem so confident about that.
+    DialogueQuote: That's not exactly a word everyone knows or understands.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -50,7 +41,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Mia
-    DialogueQuote: Hey. One of us has to be, right?
+    DialogueQuote: I like girls. And boys. I guess I'm bi?
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -58,7 +49,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: Come on. You haven't made any new friends at college?
+    DialogueQuote: You guess?
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -66,16 +57,24 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"It startles me how quickly Lily''s tone has changed. It''s firm,
-      but she''s still smiling... Even a little sadly."'
+    DialogueQuote: Lily smiles at me in amusement. I can't help but smile too. It's
+      a lot of weight off my shoulders, and I let out a quiet exhale...
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
     OnStripEndEvent:
       m_PersistentCalls:
         m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: '"How do I even respond to that?"'
+  - PersonTalking: Mia
+    DialogueQuote: I definitely like girls.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: Lily
+    DialogueQuote: Okay.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -84,4 +83,4 @@ MonoBehaviour:
         m_Calls: []
   endsOnQuestion: 0
   Options: []
-  NextDialogue: {fileID: 11400000, guid: 62189a3cbaf68b447bd0a566937937d2, type: 2}
+  NextDialogue: {fileID: 11400000, guid: 569ab529280ab4645a49464b3885d844, type: 2}

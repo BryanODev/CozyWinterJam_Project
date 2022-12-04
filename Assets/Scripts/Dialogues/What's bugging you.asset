@@ -17,14 +17,38 @@ MonoBehaviour:
   - PersonTalking: 
     DialogueQuote: '"Lily has always been more closed off than me, and even tho she''s
       always been honest with me... It''s odd to hear her say such things.'
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: 
     DialogueQuote: '"We''ve both struggled with our own minds: that''s why we became
       so close, after all. It was like finding understanding with that one special
       person."'
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: 
     DialogueQuote: '"Like they''re the only one who can understand."'
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: Mia
     DialogueQuote: What's bugging you?
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   endsOnQuestion: 0
   Options: []
-  NextDialogue: {fileID: 0}
+  NextDialogue: {fileID: 11400000, guid: 5f7c5d2ae58564e488e6a30902be15c0, type: 2}

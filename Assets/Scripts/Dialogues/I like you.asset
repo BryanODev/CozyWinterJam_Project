@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6685f8597e71cca45a7dffde5153d165, type: 3}
+  m_Name: I like you
+  m_EditorClassIdentifier: 
+  DialogueTitle: I like you
+  Quotes:
+  - PersonTalking: Mia
+    DialogueQuote: I...
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: Lily
+    DialogueQuote: ... Mia, what is it...? You look pale.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: Maybe it's selfish of me to do this. To ruin her little world
+      where I was her best friend, and she didn't have to worry about me catching
+      feelings for her.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: I just can't take this to my grave. I need closure.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: Mia
+    DialogueQuote: I... I like you.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: Lily
+    DialogueQuote: Huh...?
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: Mia
+    DialogueQuote: More than a friend should. I... I like you, Lily. A lot. I have
+      for while, and I just...
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: My breath catches in my throat. A wet mist fills my vision, and
+      I feel like a tennis ball is stuck in my throat.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: This is embarrassing. I should've never...
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: Lily
+    DialogueQuote: Oh... Oh, Mia...
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: Her voice softens. It's how a mother would comfort a crying child.
+      I feel more embarrassed now. I know what's about to come out of her mouth.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: I just don't want to hear it.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: But, I have to.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: Lily
+    DialogueQuote: I... I'm sorry.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: Mia
+    DialogueQuote: I know. It's okay.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: My voice comes out like a croak. My face is flushed. Everything
+      aches.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: Lily
+    DialogueQuote: I'm just... I'm straight, so...
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: Mia
+    DialogueQuote: Yea- It's fine. It's... It's okay. It was selfish of me to say
+      anything.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: Lily
+    DialogueQuote: Don't be stupid. Just... You could find someone better than me,
+      you know. Someone who will actually get on a rollercoaster with you and not
+      throw up.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: I somehow muster a little laught. She laughts too.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: There's a weight that's been lifted off my shoulders.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: I just hope this doesn't amke things awkward between us...
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: I wipe at my face, swiping away any tears that got loose, and
+      I take a deep breath to steady myself.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  endsOnQuestion: 0
+  Options: []
+  NextDialogue: {fileID: 11400000, guid: d5c3f511254724b49b3f8975dfebf800, type: 2}

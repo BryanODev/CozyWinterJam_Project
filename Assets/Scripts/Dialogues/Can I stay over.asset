@@ -10,47 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6685f8597e71cca45a7dffde5153d165, type: 3}
-  m_Name: Even the snow
+  m_Name: Can I stay over
   m_EditorClassIdentifier: 
-  DialogueTitle: Even the snow?
+  DialogueTitle: Can I stay over?
   Quotes:
-  - PersonTalking: 
-    DialogueQuote: '"It only feels natural for me to alleviate the tension somehow.
-      That''s something I picked up  half-way throught high school: humour as a defence
-      mechanism."'
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: '"It worked out pretty well for me so far. It makes Lily smile...
-      Sometimes. That makes it worth it in the end."'
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: '"I don''t know how she puts up with me."'
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
   - PersonTalking: Mia
-    DialogueQuote: Even the snow? I think there's a word for that...
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: '"I hear Lily snicker"'
+    DialogueQuote: So, can I stay over? We haven't had a sleepover in a while.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -58,7 +23,33 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: Very funny.
+    DialogueQuote: Sure. You know mom'll be okay with it.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: Mia
+    DialogueQuote: Yessss.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: Sleepovers at Lily's house were always fun when we were kids.
+      We'd spend hours building a blanket fort, watching bad movies and eating snacks.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: Lily was always a better host than me. She gets it from her mom
+      for sure.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -67,4 +58,4 @@ MonoBehaviour:
         m_Calls: []
   endsOnQuestion: 0
   Options: []
-  NextDialogue: {fileID: 11400000, guid: 5f7c5d2ae58564e488e6a30902be15c0, type: 2}
+  NextDialogue: {fileID: 11400000, guid: f7cec9d5058860343a3a271ef9dcdf47, type: 2}

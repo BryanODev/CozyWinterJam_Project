@@ -10,31 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6685f8597e71cca45a7dffde5153d165, type: 3}
-  m_Name: We'll always be together
+  m_Name: It's going okay.
   m_EditorClassIdentifier: 
-  DialogueTitle: We'll always be together
+  DialogueTitle: It's going okay
   Quotes:
   - PersonTalking: Mia
-    DialogueQuote: We'll always be together. Even if we're far apart. A bond like
-      ours just doesn't fade into nothing.
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: '"I say it with such confidence that I startle myself, but at
-      the same time, I barely believe what I''m saying."'
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: '"Life rips people away from each other, like tugging at a bow
-      to unravel it seamlessly."'
+    DialogueQuote: I mean... It's going okey. The therapist I'm seeing seems nice
+      enought. He looks like a therapist you see in movies.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -42,7 +24,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: You seem so confident about that.
+    DialogueQuote: Oh, don't tell me. Silver hair, sweater vest and glasses?
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -50,7 +32,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Mia
-    DialogueQuote: Hey. One of us has to be, right?
+    DialogueQuote: You know it.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -58,7 +40,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: Come on. You haven't made any new friends at college?
+    DialogueQuote: So cliche. I lvoe it
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -66,8 +48,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"It startles me how quickly Lily''s tone has changed. It''s firm,
-      but she''s still smiling... Even a little sadly."'
+    DialogueQuote: 'We laught together. Her laught sounds like gentle bells on a
+      crisp winter''s morning: a breath of fresh air. I feel guilty - and cheesy
+      as all hell - for making such comparisons.'
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -75,7 +58,15 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"How do I even respond to that?"'
+    DialogueQuote: I can't help itm though. Lily makes it so easy.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: I just can't believe it took me this long to realise how I feel.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -84,4 +75,4 @@ MonoBehaviour:
         m_Calls: []
   endsOnQuestion: 0
   Options: []
-  NextDialogue: {fileID: 11400000, guid: 62189a3cbaf68b447bd0a566937937d2, type: 2}
+  NextDialogue: {fileID: 11400000, guid: 6e8b799fabce39f4c81e680467433c1f, type: 2}

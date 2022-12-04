@@ -10,57 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6685f8597e71cca45a7dffde5153d165, type: 3}
-  m_Name: I've worried about it too...
+  m_Name: I'll miss you
   m_EditorClassIdentifier: 
-  DialogueTitle: I've worried about it too...
+  DialogueTitle: 
   Quotes:
-  - PersonTalking: Mia
-    DialogueQuote: I've worried about it too.... But, I don't want to lose you -
-      I mean, I just...
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: '"I trip over my own words, and I feel a flush crawl into my cheeks.
-      I''m really giving my self away here, and it''s embarrasing."'
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: '"There''s no point in trying to deny it: the fear I feel every
-      time I laught and bond with a classmate."'
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: I want to say the name. But, what if it just happens wihtout us
-      realising? I mean, surely you've made new friends, right?
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: '"My heart drops into my stomach. I really didn''t want Lily to
-      feed into my fears, but it happened anyway."'
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: '"All the words in my mouth fizzle away, and my tongue feels dry."'
+    DialogueQuote: I'll miss you. When we get back to college. This was nice, and....
+      I just hope we can do it again next year.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -68,8 +24,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Mia
-    DialogueQuote: I mean.... Yeah, I guess so. I mean, they're just classmates.
-      It's not like I'm going out and partying with them.
+    DialogueQuote: Me too.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -77,8 +32,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: It's okey Mia. I've met a few nice people too... It's just...
-      How things are. We meet new people.
+    DialogueQuote: Maybe next time we'l go somewhere else...? I've never see the
+      Northern Lights up close.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -86,7 +41,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Mia
-    DialogueQuote: People you have more in common with, I'm guessing?
+    DialogueQuote: I've never been to Europe, so ... Yeah. Let's do it.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -94,7 +49,23 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: I... Well, yeah. In some ways.
+    DialogueQuote: You think they'd let me bring a canvas onto a plane?
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: Mia
+    DialogueQuote: Probably not.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: Lily
+    DialogueQuote: Ugh...
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -102,8 +73,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"We''ve always had a fre differences. I like theme parks, swimming
-      and ice skating... But, Lily hates all of that."'
+    DialogueQuote: There's an unspoken fear between the two of us. That we'll eventually
+      drift apart and stop talking. Sure, we've probably made new friends at college,
+      but...
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -111,7 +83,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"Lily likes long walks among nature, going to the beach...."'
+    DialogueQuote: This is us. Best friends, and my first  real crush since my first
+      boyfriend. We can't drift apart right?
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -119,7 +92,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"I hate all of that."'
+    DialogueQuote: It feels like every day we've been at college, I've felt her slipping
+      away from my grasp. Trying to talk everyday is like raking my fingers throught
+      dry sand to create an oasis.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -127,8 +102,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"But, isn''t that what makes connecting with people so special?
-      That we''re all different inside, even if we share interests?"'
+    DialogueQuote: It's tiering. It's difficult. But, I'm trying.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -136,7 +110,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"No one person will ever be exactly the same as another."'
+    DialogueQuote: I don't want to be apart from Lily. Even if we don't share the
+      same interest sometimes. I just want to be with her.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -144,7 +119,15 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"We fall into silence again."'
+    DialogueQuote: I can't imagine seeing a future without her in it.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: We fall into silence again.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []

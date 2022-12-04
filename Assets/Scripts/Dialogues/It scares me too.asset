@@ -18,56 +18,71 @@ MonoBehaviour:
     DialogueQuote: '"It terrifies me, really. That my entire childhood is slipping
       away: it''s like I''m cupping water in my hands. Every drip of my knuckles
       is another year gone."'
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: 
     DialogueQuote: '"It''s slipping away faster and faster. How did time start going
       so fast? I want independence but at the same time..."'
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: 
     DialogueQuote: '"What if I''m a  terrible adult? What if I fail at every expectation?
       What if I fail at achieving my dreams...?"'
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: Mia
     DialogueQuote: It scares me too, you know. I'm scared of failing.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: Lily
     DialogueQuote: You're supposed to be the brave one!
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: Mia
     DialogueQuote: I think you might have the wrong idea about me.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: 
     DialogueQuote: '"We share a smile. Admitting my fears feel like breathing when
       I''m with Lily: she doesn''t really realise how much comfort she exudes."'
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: 
     DialogueQuote: '"I don''t want to live without her."'
-  - PersonTalking: 
-    DialogueQuote: '"Lily reaches over to hold my hand: it''s soft and warm. She
-      queezes it, and we look at each other for a moment. I have to hold my breath."'
-  - PersonTalking: 
-    DialogueQuote: '"I don''t want her to see how nervous I am. I feel like some
-      lovesick kid trying to figure out the best way to kiss someone''s cheek and
-      run away fast enought."'
-  - PersonTalking: 
-    DialogueQuote: '"But, it doesn''t work like that anymore. Love is far more complicated
-      than that. Love is something I''ve always had trouble grasping."'
-  - PersonTalking: 
-    DialogueQuote: '"With Lily, it feels real. Like how it must feel in movies."'
-  - PersonTalking: Lily
-    DialogueQuote: I've had alot of fun. I guess I'm also scared that....
-  - PersonTalking: Mia
-    DialogueQuote: .... That, what?
-  - PersonTalking: Lily
-    DialogueQuote: People drift away when they go to college. I'm scared I'll lose
-      my best friend.
-  - PersonTalking: 
-    DialogueQuote: '"I''d be lying if I said that I wasn''t worried about it. That''s
-      how life goes when you grow up."'
-  - PersonTalking: 
-    DialogueQuote: '"I mean, how many people are still friends with the people tehy
-      went to hight school with? Not many. unless they''re ''high school sweethearts''."'
-  - PersonTalking: 
-    DialogueQuote: '"I couldn''t imagine living without Lily. But, what if one day
-      we just stop talking? Like, we don''t even realise it, and it''s too late?"'
-  - PersonTalking: 
-    DialogueQuote: '"What if Lily meets someone else, and realises she doesn''t need
-      me anymore...?"'
-  endsOnQuestion: 1
-  Options:
-  - {fileID: 11400000, guid: 04bf9c1578b68714a9a9a409ba374da2, type: 2}
-  - {fileID: 11400000, guid: 4749ca8eda4ba1b4bab18b025f2be0ca, type: 2}
-  NextDialogue: {fileID: 0}
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  endsOnQuestion: 0
+  Options: []
+  NextDialogue: {fileID: 11400000, guid: 7118c7fcda73ce741b2a600d8db63dcc, type: 2}

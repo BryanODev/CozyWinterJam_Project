@@ -10,13 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6685f8597e71cca45a7dffde5153d165, type: 3}
-  m_Name: We'll always be together
+  m_Name: I think I'm asexual
   m_EditorClassIdentifier: 
-  DialogueTitle: We'll always be together
+  DialogueTitle: I think I'm  asexual.
   Quotes:
   - PersonTalking: Mia
-    DialogueQuote: We'll always be together. Even if we're far apart. A bond like
-      ours just doesn't fade into nothing.
+    DialogueQuote: I... I think I'm...
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -24,25 +23,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"I say it with such confidence that I startle myself, but at
-      the same time, I barely believe what I''m saying."'
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: '"Life rips people away from each other, like tugging at a bow
-      to unravel it seamlessly."'
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: Lily
-    DialogueQuote: You seem so confident about that.
+    DialogueQuote: My throat feels dry, and there's a twisting sensation in my stomach.
+      Like it's curling into knots all at once, and I can't speak.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -50,7 +32,25 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Mia
-    DialogueQuote: Hey. One of us has to be, right?
+    DialogueQuote: I think I'm asexual.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: I haven't told anyone this before. I've been thinking it for weeks
+      now, but that's different than outright admitting it and accepting it.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: I'd never tell my parents. Quite frankly, it's none of their business,
+      but...
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -58,24 +58,24 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: Come on. You haven't made any new friends at college?
+    DialogueQuote: What's that?
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
     OnStripEndEvent:
       m_PersistentCalls:
         m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: '"It startles me how quickly Lily''s tone has changed. It''s firm,
-      but she''s still smiling... Even a little sadly."'
+  - PersonTalking: Mia
+    DialogueQuote: It's like... you don't feel sexual attraction. But, you can still
+      want romantic relationships. It's a big spectrum, I guess.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
     OnStripEndEvent:
       m_PersistentCalls:
         m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: '"How do I even respond to that?"'
+  - PersonTalking: Lily
+    DialogueQuote: Oh
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -84,4 +84,4 @@ MonoBehaviour:
         m_Calls: []
   endsOnQuestion: 0
   Options: []
-  NextDialogue: {fileID: 11400000, guid: 62189a3cbaf68b447bd0a566937937d2, type: 2}
+  NextDialogue: {fileID: 11400000, guid: 569ab529280ab4645a49464b3885d844, type: 2}

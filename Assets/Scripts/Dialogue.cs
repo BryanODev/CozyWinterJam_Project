@@ -95,12 +95,12 @@ public class Dialogue : MonoBehaviour
         }
         else
         {
-            if (Input.GetMouseButton(0))
+            if (Input.GetMouseButtonDown(0))
             {
                 dialogueCurrentDrawSpeed = dialogueFastDrawSpeed;
                 voxAudioSource.pitch = 1.5f;
             }
-            else
+            else if (Input.GetMouseButtonUp(0))
             {
                 dialogueCurrentDrawSpeed = dialogueSlowDrawSpeed;
                 voxAudioSource.pitch = 1;

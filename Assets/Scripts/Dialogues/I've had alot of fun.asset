@@ -10,12 +10,56 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6685f8597e71cca45a7dffde5153d165, type: 3}
-  m_Name: Not really...
+  m_Name: I've had alot of fun
   m_EditorClassIdentifier: 
-  DialogueTitle: Not really...
+  DialogueTitle: It scares me too.
   Quotes:
+  - PersonTalking: 
+    DialogueQuote: '"Lily reaches over to hold my hand: it''s soft and warm. She
+      queezes it, and we look at each other for a moment. I have to hold my breath."'
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: '"I don''t want her to see how nervous I am. I feel like some
+      lovesick kid trying to figure out the best way to kiss someone''s cheek and
+      run away fast enought."'
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: '"But, it doesn''t work like that anymore. Love is far more complicated
+      than that. Love is something I''ve always had trouble grasping."'
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: '"With Lily, it feels real. Like how it must feel in movies."'
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: Lily
+    DialogueQuote: I've had alot of fun. I guess I'm also scared that....
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
   - PersonTalking: Mia
-    DialogueQuote: Not really...
+    DialogueQuote: .... That, what?
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -23,24 +67,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: Why is that?
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: Mia
-    DialogueQuote: I've had fun. Don't really want it to end, you know? It's a feeling
-      of dread.
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: Lily
-    DialogueQuote: Yeah, I feel that way too.
+    DialogueQuote: People drift away when they go to college. I'm scared I'll lose
+      my best friend.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -48,8 +76,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: At least I'm not alone in how I feel. There's a lot I want to
-      do and say before our trip comes to an end, but...
+    DialogueQuote: '"I''d be lying if I said that I wasn''t worried about it. That''s
+      how life goes when you grow up."'
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -57,8 +85,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: I've never been good with my own feelings. Whenever I start speaking
-      openly about my feelings, it's like stripping myself nude.
+    DialogueQuote: '"I mean, how many people are still friends with the people tehy
+      went to hight school with? Not many. unless they''re ''high school sweethearts''."'
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -66,8 +94,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: Like I'm exposing the deepest parts of my self. Like someone's
-      seeing something I don't want them to see.
+    DialogueQuote: '"I couldn''t imagine living without Lily. But, what if one day
+      we just stop talking? Like, we don''t even realise it, and it''s too late?"'
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -75,47 +103,16 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: It makes my stomach turn.
+    DialogueQuote: '"What if Lily meets someone else, and realises she doesn''t need
+      me anymore...?"'
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
     OnStripEndEvent:
       m_PersistentCalls:
         m_Calls: []
-  - PersonTalking: Lily
-    DialogueQuote: Is there something you want to tell me?
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: I guess Lily caught onto my anxiety...
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: Maybe it's ok to tell her...
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: Maybe.
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  endsOnQuestion: 0
+  endsOnQuestion: 1
   Options:
-  - {fileID: 11400000, guid: 9bb2b7b4afa742d4b9863731bb54a5b6, type: 2}
-  - {fileID: 11400000, guid: 034dac20ddce43040b08a96ced690eb8, type: 2}
+  - {fileID: 11400000, guid: 04bf9c1578b68714a9a9a409ba374da2, type: 2}
+  - {fileID: 11400000, guid: 4749ca8eda4ba1b4bab18b025f2be0ca, type: 2}
   NextDialogue: {fileID: 0}

@@ -10,31 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6685f8597e71cca45a7dffde5153d165, type: 3}
-  m_Name: I've worried about it too...
+  m_Name: I'll be Okay.
   m_EditorClassIdentifier: 
-  DialogueTitle: I've worried about it too...
+  DialogueTitle: 
   Quotes:
   - PersonTalking: Mia
-    DialogueQuote: I've worried about it too.... But, I don't want to lose you -
-      I mean, I just...
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: '"I trip over my own words, and I feel a flush crawl into my cheeks.
-      I''m really giving my self away here, and it''s embarrasing."'
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: '"There''s no point in trying to deny it: the fear I feel every
-      time I laught and bond with a classmate."'
+    DialogueQuote: I'll be okay. At least I'm seeing someone. Hopefully it helps
+      me more than the last one did.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -42,8 +24,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: I want to say the name. But, what if it just happens wihtout us
-      realising? I mean, surely you've made new friends, right?
+    DialogueQuote: Mm....
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -51,8 +32,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"My heart drops into my stomach. I really didn''t want Lily to
-      feed into my fears, but it happened anyway."'
+    DialogueQuote: 'We fall into a comfortable silence for a moment. I do worry about
+      Lily more than I would worry about my self: even thogh we suffer from similar
+      things.'
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -60,7 +42,45 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"All the words in my mouth fizzle away, and my tongue feels dry."'
+    DialogueQuote: Anxiety and depression are common topics of conversation, but
+      we've learned to let the moment settle when we've had enought.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: Lily has never really enjoyed therapy, but I can tell it's helped
+      her massively over the years. I've seen new sides of her that I never knew
+      about.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: That she likes those cheesy sports anime, or that she thinks videogame
+      music is great for focusing on her art.
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: 
+    DialogueQuote: 'I want to keep learning new things about her: all the good and
+      the bad.'
+    OnStripStartEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStripEndEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - PersonTalking: Lily
+    DialogueQuote: When we get back, you should come see my mom. Stay over for the
+      night. She missed you.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -68,8 +88,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Mia
-    DialogueQuote: I mean.... Yeah, I guess so. I mean, they're just classmates.
-      It's not like I'm going out and partying with them.
+    DialogueQuote: Ah,sweet Janet... I'll only come if she makes those gingerbread
+      rocky road bites.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -77,8 +97,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: It's okey Mia. I've met a few nice people too... It's just...
-      How things are. We meet new people.
+    DialogueQuote: Taking advantage of my mom's baking again, are we?
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -86,7 +105,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Mia
-    DialogueQuote: People you have more in common with, I'm guessing?
+    DialogueQuote: It's not my fault that every cake I bake falls apart!
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -94,7 +113,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: Lily
-    DialogueQuote: I... Well, yeah. In some ways.
+    DialogueQuote: Uh huh.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -102,8 +121,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"We''ve always had a fre differences. I like theme parks, swimming
-      and ice skating... But, Lily hates all of that."'
+    DialogueQuote: Lily's mom has always been so nice to me. My own parents were
+      pretty absent, they focused on keeping us fed and warm.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -111,7 +130,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"Lily likes long walks among nature, going to the beach...."'
+    DialogueQuote: I feel like they resent me for being around, but Lily's mom filled
+      in the gaps. She always gave me hugs, cooked dinner for me whenever I came
+      over...
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -119,38 +140,15 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - PersonTalking: 
-    DialogueQuote: '"I hate all of that."'
+    DialogueQuote: Lily is definitely lucky.
     OnStripStartEvent:
       m_PersistentCalls:
         m_Calls: []
     OnStripEndEvent:
       m_PersistentCalls:
         m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: '"But, isn''t that what makes connecting with people so special?
-      That we''re all different inside, even if we share interests?"'
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: '"No one person will ever be exactly the same as another."'
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - PersonTalking: 
-    DialogueQuote: '"We fall into silence again."'
-    OnStripStartEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    OnStripEndEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  endsOnQuestion: 0
-  Options: []
-  NextDialogue: {fileID: 11400000, guid: 62189a3cbaf68b447bd0a566937937d2, type: 2}
+  endsOnQuestion: 1
+  Options:
+  - {fileID: 11400000, guid: 8d88ad423bfbc7c479848e40c67455ee, type: 2}
+  - {fileID: 11400000, guid: 7490cd360921287498024e23a3f3eb93, type: 2}
+  NextDialogue: {fileID: 0}
