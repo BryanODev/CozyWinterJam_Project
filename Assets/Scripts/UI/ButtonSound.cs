@@ -5,12 +5,11 @@ using UnityEngine;
 public class ButtonSound : MonoBehaviour
 {
     [Header("Click SFX")]
-    [SerializeField] AudioSource clickAudioSource;
+    [SerializeField] AudioSource audioSource;
     [SerializeField] AudioClip ButtonDown;
     [SerializeField] AudioClip ButtonUp;
 
     [Header("Hover SFX")]
-    [SerializeField] AudioSource hoverAudioSource;
     [SerializeField] AudioClip[] ButtonHoverList;
 
     private void Awake()
@@ -20,35 +19,24 @@ public class ButtonSound : MonoBehaviour
 
     public void OnButtonDown()
     {
-        if (clickAudioSource)
+        if (audioSource)
         {
-            if (clickAudioSource.clip != ButtonDown)
-            {
-                clickAudioSource.clip = ButtonDown;
-            }
-            clickAudioSource.Play();
+            audioSource.PlayOneShot(ButtonDown);
         }
     }
 
     public void OnButtonUp()
     {
-        if (clickAudioSource)
+        if (audioSource)
         {
-            if (clickAudioSource.clip != ButtonUp)
-            {
-                clickAudioSource.clip = ButtonUp;
-            }
-
-            clickAudioSource.Play();
+            audioSource.PlayOneShot(ButtonUp);
         }
     }
     public void OnButtonHover()
     {
-        if (hoverAudioSource)
+        if (audioSource)
         {
-            hoverAudioSource.clip = ButtonHoverList[Random.Range(0, ButtonHoverList.Length)];
-            Debug.Log("I Just played" + hoverAudioSource.clip.name);
-            hoverAudioSource.Play();
+            audioSource.PlayOneShot(ButtonHoverList[Random.Range(0, ButtonHoverList.Length)]);
         }
     }
 }

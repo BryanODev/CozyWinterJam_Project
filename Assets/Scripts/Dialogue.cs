@@ -26,7 +26,9 @@ public class Dialogue : MonoBehaviour
 
     [Header("Audio")]
     [SerializeField] private AudioSource voxAudioSource;
-    [SerializeField] AudioClip[] voxAudioClip;
+    [SerializeField] AudioClip[] narratorAudioClip;
+    [SerializeField] AudioClip[] lilyAudioClip;
+    [SerializeField] AudioClip[] miaAudioClip;
 
 
     private void Awake()
@@ -83,12 +85,12 @@ public class Dialogue : MonoBehaviour
             if (Input.GetMouseButton(0))
             {
                 dialogueCurrentDrawSpeed = dialogueFastDrawSpeed;
-                //voxAudioSource.pitch = 1.5f;
+                voxAudioSource.pitch = 1.5f;
             }
             else
             {
                 dialogueCurrentDrawSpeed = dialogueSlowDrawSpeed;
-                //voxAudioSource.pitch = 1;
+                voxAudioSource.pitch = 1;
             }
         }
     }
@@ -117,18 +119,32 @@ public class Dialogue : MonoBehaviour
 
         float textSize = Text.Length;
 
+
         for (int i = 0; i < textSize; i++)
         {
             DialogueText.text += Text[i];
             RemoveR();
+            Debug.Log(currentDialogue.Quotes[currentDialogueIndex].PersonTalking);
             if (dialogueCurrentDrawSpeed == 0.05f)
             {
-                voxAudioSource.PlayOneShot(voxAudioClip[Random.Range(0, voxAudioClip.Length)]);
+                switch (currentDialogue.Quotes[currentDialogueIndex].PersonTalking)
+                {
+                    case "Mia":
+                        voxAudioSource.PlayOneShot(miaAudioClip[Random.Range(0, miaAudioClip.Length)]);
+                        break;
+                    case "Lily":
+                        voxAudioSource.PlayOneShot(lilyAudioClip[Random.Range(0, lilyAudioClip.Length)]);
+                        break;
+                    case "":
+                        voxAudioSource.PlayOneShot(narratorAudioClip[Random.Range(0, narratorAudioClip.Length)]);
+                        break;
+                }
             }
             else
             {
                 voxAudioSource.Stop();
             }
+
             yield return new WaitForSeconds(dialogueCurrentDrawSpeed);
         }
 
