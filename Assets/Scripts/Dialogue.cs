@@ -122,20 +122,38 @@ public class Dialogue : MonoBehaviour
 
         for (int i = 0; i < textSize; i++)
         {
+            float pauseMod = 0.0f;
             DialogueText.text += Text[i];
             RemoveR();
-            Debug.Log(currentDialogue.Quotes[currentDialogueIndex].PersonTalking);
+            switch (Text[i])
+            {
+                case '.':
+                    pauseMod = 10f;
+                    break;
+                case ',':
+                    pauseMod = 5f;
+                    break;
+                case ':':
+                    pauseMod = 8f;
+                    break;
+                default:
+                    pauseMod = 1.0f;
+                    break;
+            }
+
             if (dialogueCurrentDrawSpeed == 0.05f)
             {
                 switch (currentDialogue.Quotes[currentDialogueIndex].PersonTalking)
                 {
                     case "Mia":
+                        voxAudioSource.panStereo = -0.1f;
                         voxAudioSource.PlayOneShot(miaAudioClip[Random.Range(0, miaAudioClip.Length)]);
                         break;
                     case "Lily":
+                        voxAudioSource.panStereo = 0.1f;
                         voxAudioSource.PlayOneShot(lilyAudioClip[Random.Range(0, lilyAudioClip.Length)]);
                         break;
-                    case "":
+                    default:
                         voxAudioSource.PlayOneShot(narratorAudioClip[Random.Range(0, narratorAudioClip.Length)]);
                         break;
                 }
@@ -145,7 +163,7 @@ public class Dialogue : MonoBehaviour
                 voxAudioSource.Stop();
             }
 
-            yield return new WaitForSeconds(dialogueCurrentDrawSpeed);
+            yield return new WaitForSeconds(dialogueCurrentDrawSpeed * pauseMod);
         }
 
         OnDialogueTextFinish();
